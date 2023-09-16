@@ -1,5 +1,5 @@
 import openai, json, os
-from prompts.prompts import UserProfilePrompt
+from src.prompts import UserProfilePrompt
 
 openai.api_key = os.getenv("OPENAI_KEY")
 openai.organization = os.getenv("OPENAI_ORGANIZATION")
@@ -29,7 +29,7 @@ def create_user_profile(personal_answers):
 
 if __name__ == "__main__":
     answers= []
-    with open("prompts/selected_answers.jsonl", "r") as infile:
+    with open("test_data/selected_answers.jsonl", "r") as infile:
         for l in infile:
             answers.append(json.loads(l))
 
