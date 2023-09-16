@@ -5,6 +5,9 @@ from django.shortcuts import render, redirect
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
+import random
+from django.views.decorators.http import require_http_methods
+
 
 from app.models import *
 from app.serializers import *
@@ -37,9 +40,32 @@ def get_valuable_insights(request):
     return JsonResponse({'response': response}, safe=False)
 
 
+def generate_reward():
+    prob = 0.12
+
+    REWARDS = [
+        "🎉", "🌟", "🎁", "🥇", "👏", "🍕", "🍦", "🍭", "💎", "🚀", "🌈",
+        "❤️", "🔥", "🍔", "🍺", "🏆", "🎈", "📚", "🎮", "💰", "👑", "🎂",
+        "🌺", "🍩", "🍓", "🍸", "🎵", "🚲", "🌄", "🏖️", "🚁", "🛋️", "🌆",
+        "🌷", "🏀", "🍀", "🎣", "🎤", "🚗", "🌅", "🏕️", "🚢", "🚀", "🎨",
+        "🌻", "⚽", "🌊", "🏹", "🎸", "🚁", "🌇", "🏞️", "🛶", "🛰️", "🎭",
+        "🌹", "🏈", "🏝️", "🏄", "🎷", "🚆", "🌉", "🏔️", "🛵", "🚤", "🎪"
+    ]
+
+    if random.random() <= prob:
+        return random.choice(REWARDS)
+    else:
+        return None  # No reward this time
 
 @api_view(['GET'])
 def get_random_question(request):
+
+    egg, created = Egg.objects.get_or_create()
+
+    if not egg.health():
+        print('here')
+        return redirect('results')
+
     # Fetch a random question which hasn't yet been answered by the user
     user_profile = request.user.userprofile
     random_question = Question.objects.exclude(
@@ -54,6 +80,7 @@ def get_random_question(request):
         data = {
             'question': QuestionSerializer(random_question).data,
             'answers': {item['choice']: item['answer_text'] for item in answers},
+            'reward': generate_reward()
         }
 
         return JsonResponse(data)
@@ -92,6 +119,12 @@ def state(request):
 
     # Return the data as JSON response
     return JsonResponse(data)
+
+@require_http_methods(["GET"])
+def results(request):
+
+    return render(request, 'results.html')
+
 
 def index(request):
     # TODO: create endpoint & js function to refresh count -> why not use react for that???
