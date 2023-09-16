@@ -36,6 +36,7 @@
     height: 50vh;
     top: 50vh;
     overflow: none;
+    z-index: 10;
   }
 
 .black {
@@ -152,7 +153,8 @@
 #footer {
   width: 100%;
   position: absolute;
-  bottom: 50px
+  bottom: 50px;
+  display:none;
 }
 
 #footer-container {

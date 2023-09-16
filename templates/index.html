@@ -5,6 +5,7 @@
 <head>
   <title>WHUAT!</title>
   <link rel="stylesheet" href="{% static 'styles/style.css' %}">
+  <link rel="stylesheet" href="{% static 'styles/multiplier.css' %}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
   <style>
@@ -28,7 +29,47 @@
       <div class="image-container">
         <img src="{% static 'images/before.png' %}" class="before-img" alt="Before">
         <div class="after-img"></div>
+        
         <div class="slider" id="slider"></div>
+        <svg id="egg_svg" style="display: none;" viewBox="0 0 221 295" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+              <linearGradient id="rainbow">
+                  <!-- Stacked gradients for looping -->
+                  <!-- Stops at intervals of 4% -->
+                  <stop offset="0%" stop-color="rgba(255, 0, 0, 0.6)"></stop>
+                  <stop offset="4%" stop-color="rgba(255, 87, 34, 0.6)"></stop>
+                  <stop offset="8%" stop-color="rgba(255, 165, 0, 0.6)"></stop>
+                  <stop offset="12%" stop-color="rgba(205, 220, 57, 0.6)"></stop>
+                  <stop offset="16%" stop-color="rgba(139, 195, 74, 0.6)"></stop>
+                  <stop offset="20%" stop-color="rgba(0, 128, 0, 0.6)"></stop>
+                  <stop offset="24%" stop-color="rgba(0, 151, 167, 0.6)"></stop>
+                  <stop offset="28%" stop-color="rgba(0, 188, 212, 0.6)"></stop>
+                  <stop offset="32%" stop-color="rgba(0, 0, 255, 0.6)"></stop>
+                  <stop offset="36%" stop-color="rgba(103, 58, 183, 0.6)"></stop>
+                  <stop offset="40%" stop-color="rgba(156, 39, 176, 0.6)"></stop>
+                  <stop offset="44%" stop-color="rgba(233, 30, 99, 0.6)"></stop>
+                  <stop offset="48%" stop-color="rgba(244, 67, 54, 0.6)"></stop>
+                  <stop offset="52%" stop-color="rgba(255, 87, 34, 0.6)"></stop>
+                  <stop offset="56%" stop-color="rgba(255, 152, 0, 0.6)"></stop>
+                  <stop offset="60%" stop-color="rgba(205, 220, 57, 0.6)"></stop>
+                  <stop offset="64%" stop-color="rgba(76, 175, 80, 0.6)"></stop>
+                  <stop offset="68%" stop-color="rgba(0, 150, 136, 0.6)"></stop>
+                  <stop offset="72%" stop-color="rgba(0, 188, 212, 0.6)"></stop>
+                  <stop offset="76%" stop-color="rgba(63, 81, 181, 0.6)"></stop>
+                  <stop offset="80%" stop-color="rgba(103, 58, 183, 0.6)"></stop>
+                  <stop offset="84%" stop-color="rgba(156, 39, 176, 0.6)"></stop>
+                  <stop offset="88%" stop-color="rgba(233, 30, 99, 0.6)"></stop>
+                  <stop offset="92%" stop-color="rgba(244, 67, 54, 0.6)"></stop>
+                  <stop offset="96%" stop-color="rgba(255, 87, 34, 0.6)"></stop>
+                  <stop offset="100%" stop-color="rgba(255, 0, 0, 0.6)"></stop>
+                  
+                  <!-- Animate gradient -->
+                  <animate attributeName="y1" from="0%" to="100%" dur="15s" repeatCount="indefinite"/>
+                  <animate attributeName="y2" from="100%" to="0%" dur="15s" repeatCount="indefinite"/>
+              </linearGradient>
+          </defs>
+          <path id="egg_path" d="M104 1H109H116L125.5 2L133.5 4.5L141 7.5L150.5 12.5L158.5 18.5L166 24.5L172 30.5L182 44L188.5 53L195 65.5L198 71.5L204.5 84.5L210 98.5L213.5 110.5L216.5 121L217.5 129.5L219 139.5L220 149.5V158.5V168.5L219 184L216.5 200L210 220L203 236L194.5 249L182.5 263.5L170.5 274L158.5 282.5L147 288L139 291L129.5 293L118 294.5H104L89 293L81 290L72 285.5L59 279.5L51 274.5L43 268L35.5 260.5L28 251L21.5 241L15.5 230.5L11.5 221L7 209.5L4 198L2.5 190L1.5 181L1 176.5V169.5V161.5V152V148V144.5L1.5 141.5L2.5 131L4 122L6 113L8.5 103L11 95L13 89.5L15 84L17.5 77.5L21 69.5L24.5 63L28.5 56L34.5 47L39.5 40L46.5 32L53.5 25L59.5 20L67.5 14L76 9L82.5 6L90.5 3L94 2L97.5 1H100H104Z"  style="fill:url(#rainbow)"/>
+      </svg>
       </div>
 
       <!-- This needs to be taken out afterwards and replaced with a value that gets updated every few seconds -->
@@ -88,8 +129,10 @@
     <script>
       const CSRF_TOKEN = "{{ csrf_token }}"
     </script>
+
     <script src="{% static 'scripts/egg_health.js' %}"></script>
     <script src="{% static 'scripts/fetch_question.js' %}"></script>
+    <script src="{% static 'scripts/multiplier.js' %}"></script>
 
 </body>
 
