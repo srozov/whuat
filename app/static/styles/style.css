@@ -10,7 +10,7 @@
     height: 100%;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: white;
+    background-color: rgba(190,187,193,255);
     text-align: center;
     overflow: hidden;
     position: relative;
@@ -22,18 +22,20 @@
   
   #upper {
     position: relative;
-    background-color: #3498db;
-    height: 45vh;
+    background-color: rgba(190,187,193,255);
+    height: 50vh;
     overflow: show;
   }
   
   #lower {
-    position: relative;
+    position: absolute;
     background-color: rgb(72,76,84);
     border-radius: 14px 14px 0px 0px;
     flex-grow: 1;
     overflow: auto;
-    height: 55vh;
+    height: 50vh;
+    top: 50vh;
+    overflow: none;
   }
 
 .black {
@@ -47,7 +49,7 @@
   position: absolute;
   top: 40px;
   right: 40px;
-  font-size: 23px;
+  font-size: 22px;
   padding: 8px;
   background-color: rgb(32,36,44, 1);
   border-radius: 8px;
@@ -99,17 +101,16 @@
 
 /* Lower Section */
 #question {
-  padding: 30px 30px;
+  padding: 10px 30px;
   margin: auto;
   background-color: rgb(64,60,76);
   font-weight: 100;
-  font-size: 50px;
+  font-size: 22px;
 }
 
 #choices {
   width: 95vw;
   margin: auto;
-  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -122,26 +123,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 6px; /* Half of the gap to ensure the 12px gap between items */
+  padding: 6px;
+  position: relative;
 }
 
 .choice {
   flex: 1;
+  display: flex;  /* Add this */
+  justify-content: center;  /* Add this */
+  align-items: center;  /* Add this */
   padding: 12px;
-  height: 65px;
+  height: 40px;
   text-align: center;
-  font-size: 35px;
+  font-size: 18px;
   background-color: rgb(32,36,44, 1);
   border: 1px solid rgba(32,46,44, 1);
   border-radius: 8px;
   cursor: pointer;
 }
 
-/* .choice:hover {
-  border: 1px solid rgba(32,46,44, 1);
-  background-color: white;
-  color: rgba(32,46,44, 1);
-} */
 
 
 

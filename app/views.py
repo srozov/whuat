@@ -53,7 +53,7 @@ def get_random_question(request):
         # Create the response data
         data = {
             'question': QuestionSerializer(random_question).data,
-            'answers': {item['choice']: item['answer_text'] for item in answers}
+            'answers': {item['choice']: item['answer_text'] for item in answers},
         }
 
         return JsonResponse(data)
