@@ -51,45 +51,43 @@
       <div id="choices">
         <div class="choice-container">
           <div class="choice" id="choice1">
-            
+
           </div>
         </div>
         <div class="choice-container">
           <div class="choice" id="choice2">
-            
+
           </div>
         </div>
         <div class="choice-container">
-        <div class="choice" id="choice3">
-          
-        </div>
-      </div>
-      <div class="choice-container">
-        <div class="choice" id="choice4">
-          
-        </div>
-      </div>
-    
-  </div>
+          <div class="choice" id="choice3">
 
-  <div id="footer">
-    <img class="icon" id="mic"
-    src="{% static 'images/microphone.svg' %}"
-      alt="microphone icon for accessibility so you can use text to speech">
-    
-      <img class="icon" id="upgrade"
-      src="{% static 'images/upgrade.svg' %}"
-        alt="microphone icon for accessibility so you can use text to speech">
-    
-  </div>
-  
+          </div>
+        </div>
+        <div class="choice-container">
+          <div class="choice" id="choice4">
 
-  </div>
-  <script>
-    const CSRF_TOKEN = "{{ csrf_token }}"
-  </script>
-  <script src="{% static 'scripts/egg_health.js' %}"></script>
-  <script src="{% static 'scripts/fetch_question.js' %}"></script>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="footer">
+        <img class="icon" id="mic" src="{% static 'images/microphone.svg' %}"
+          alt="microphone icon for accessibility so you can use text to speech">
+
+        <img class="icon" id="upgrade" src="{% static 'images/upgrade.svg' %}"
+          alt="microphone icon for accessibility so you can use text to speech">
+
+      </div>
+
+
+    </div>
+    <script>
+      const CSRF_TOKEN = "{{ csrf_token }}"
+    </script>
+    <script src="{% static 'scripts/egg_health.js' %}"></script>
+    <script src="{% static 'scripts/fetch_question.js' %}"></script>
 
 </body>
 

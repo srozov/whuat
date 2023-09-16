@@ -103,39 +103,47 @@
   margin: auto;
   background-color: rgb(64,60,76);
   font-weight: 100;
-  font-size: 23px;
+  font-size: 50px;
 }
 
 #choices {
-    width: 100vw;
-    margin: auto;
-    margin-top: 40px;
-    display: grid;
-    grid-template-columns: 2fr 2fr; /* 2 columns */
-    justify-content: center;
-    gap: 12px; /* Space between grid items */
-    padding: 10px;
+  width: 95vw;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
 
+.choice-container {
+  flex-basis: calc(50% - 12px); /* Considering 12px as the gap between items */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px; /* Half of the gap to ensure the 12px gap between items */
 }
 
 .choice {
-    padding: 12px;
-    text-align: center;
-    font-size: 20px;
-    background-color: rgb(32,36,44, 1);
-    border: 1px solid rgba(32,46,44, 1);
-    border-radius: 8px;
-    width: 175px;
-    height: 75px;
-    margin: auto;
-    cursor: pointer;
+  flex: 1;
+  padding: 12px;
+  height: 65px;
+  text-align: center;
+  font-size: 35px;
+  background-color: rgb(32,36,44, 1);
+  border: 1px solid rgba(32,46,44, 1);
+  border-radius: 8px;
+  cursor: pointer;
 }
 
-.choice:hover{
+/* .choice:hover {
   border: 1px solid rgba(32,46,44, 1);
   background-color: white;
   color: rgba(32,46,44, 1);
-}
+} */
+
+
 
 .icon {
     cursor: pointer;
@@ -165,3 +173,4 @@
   height: 32px;
   right: 20px; 
 }
+
