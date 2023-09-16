@@ -18,7 +18,12 @@ class Command(BaseCommand):
                     data = json.loads(line)
                     print(data)
 
-                    question = Question.objects.create(question_text=data['question'], previous_question=previous_question)
+                    question = Question.objects.create(
+                        question_text=data['question'],
+                        previous_question=previous_question,
+                        themes=json.dumps(data['themes']),
+                    )
+
                     # Update the previous_question for the next iteration
                     previous_question = question
 

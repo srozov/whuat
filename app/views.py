@@ -9,11 +9,38 @@ from rest_framework.response import Response
 from app.models import *
 from app.serializers import *
 from profiles.models import UserProfile
+from prompts.src.sustainability_profile import create_user_profile
+
+
+@api_view(['GET'])
+def get_valuable_insights(request):
+
+    payload = []
+
+    user_profile = request.user.userprofile
+    for q in user_profile.answered_questions.all():
+        choice = SelectedAnswer.objects.get(question=q, userprofile=request.user.userprofile).choice
+        answer_text = q.answer_set.get(choice=choice).answer_text
+        # answer_text = Answer.objects.get(question=q, choice=choice).answer_text
+        alternatives = list(q.answer_set.exclude(choice=choice).values_list('answer_text', flat=True))
+        row = {
+            'question': q.question_text,
+            'selected_answer': answer_text,
+            'alternatives': alternatives,
+        }
+
+        payload.append(row)
+
+    response = create_user_profile(payload)
+
+    # return JsonResponse(payload, safe=False)
+    return JsonResponse({'response': response}, safe=False)
+
 
 
 @api_view(['GET'])
 def get_random_question(request):
-    # Fetch a random question
+    # Fetch a random question which hasn't yet been answered by the user
     user_profile = request.user.userprofile
     random_question = Question.objects.exclude(
         id__in=user_profile.answered_questions.values_list('id', flat=True)
@@ -35,15 +62,15 @@ def get_random_question(request):
 
 @api_view(['POST'])
 def submit_selected_answer(request):
-    serializer = SelectedAnswerSerializer(data=request.data)
+    data = {
+        **request.data,
+        'userprofile': request.user.userprofile.pk,
+    }
+    serializer = SelectedAnswerSerializer(data=data)
 
     if serializer.is_valid():
         # Save the submitted SelectedAnswer
         serializer.save()
-
-        print(request.user.id)
-        print(UserProfile.objects.get(user=request.user.id))
-
         user_profile = UserProfile.objects.get(user__id=request.user.id)
         user_profile.answered_questions.add(serializer.data['question'])
         return Response(serializer.data, status=status.HTTP_201_CREATED)
