@@ -4,11 +4,37 @@
   }  
 
 
-body{
-    background-color: var(--main-black);
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #app {
+    height: 100vh;
+  }
+  
+  #upper {
+    position: relative;
+    background-color: #3498db;
+    height: 45vh;
+    overflow: show;
+  }
+  
+  #lower {
+    position: relative;
+    background-color: rgba(30,33,42, 0.8);
+    border-radius: 14px 14px 0px 0px;
+    flex-grow: 1;
+    overflow: auto;
+    height: 55vh;
+  }
 
 .black {
     background-color: var(--dark-black);
@@ -16,13 +42,38 @@ body{
     border-radius: 5px;
 }
 
+#user-widget{
+  z-index: 1;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  font-size: 2.5em;
+  padding: 8px;
+  background-color: rgb(32,36,44, 1);
+  border-radius: 8px;
+}
+
+#developer-mode {
+    z-index: 1;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-size: 24px;
+    padding: 8px;
+}
+
+
+
 /* Upper Section */
 .image-container {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    padding-bottom: 100%; /* For 16:9 aspect ratio (you can change this to match your image's aspect ratio) */
     overflow: hidden;
+    z-index: 0;
   }
+
+
   .before-img {
     position: absolute;
     top: 0;
@@ -46,17 +97,63 @@ body{
 
 
 /* Lower Section */
+#question {
+  padding: 80px 80px;
+  margin: auto;
+  background-color: rgb(64,60,76);
+  font-weight: 100;
+  font-size: 52px;
+
+}
+
 #choices {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 columns */
-    gap: 20px; /* Space between grid items */
+    gap: 40px; /* Space between grid items */
+
 }
+
 .choice {
-    padding: 20px;
+    padding: 40px;
     text-align: center;
-    box-shadow: 0 4px 8px var(--dark-black);
+    font-size: 35px;
+    background-color: rgb(32,36,44, 1);
+    border: 1px solid rgba(32,46,44, 1);
+    border-radius: 8px;
+    
+    width: 320px;
+    height: 100px;
+    margin: auto;
 }
+
+.choice:hover{
+  border: 1px solid rgba(32,46,44, 1);
+  background-color: white;
+  color: rgba(32,46,44, 1);
+}
+
 
 .icon {
     cursor: pointer;
+}
+
+#footer {
+  width: 100%;
+  position: absolute;
+  bottom: 20px
+}
+
+#footer-container {
+  width: 100%;
+  position: relative;
+}
+
+#mic {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  left: 20px; 
 }
