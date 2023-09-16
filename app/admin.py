@@ -6,7 +6,7 @@ from .models import Egg, Question, Answer, SelectedAnswer
 class EggAdmin(admin.ModelAdmin):
     list_display = ('dob', 'health', 'age_in_seconds')
     # list_filter = ('health',)
-    readonly_fields = ['health']
+    readonly_fields = ['health', 'active_multiplier']
     search_fields = ('dob',)
 
 
