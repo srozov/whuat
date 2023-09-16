@@ -8,6 +8,9 @@ from .forms import SimpleSignUpForm
 from .models import UserProfile
 
 
+def profile(request):
+    return render(request, 'profile.html')
+
 def signup(request):
     if request.method == 'POST':
         form = SimpleSignUpForm(request.POST)
