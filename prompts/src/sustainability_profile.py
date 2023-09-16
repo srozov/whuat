@@ -1,5 +1,6 @@
 import openai, json, os
-from prompts.prompts import UserProfilePrompt
+
+from prompts.src.prompts import UserProfilePrompt
 
 openai.api_key = os.getenv("OPENAI_KEY")
 openai.organization = os.getenv("OPENAI_ORGANIZATION")

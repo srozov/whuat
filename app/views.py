@@ -9,6 +9,7 @@ from rest_framework.response import Response
 from app.models import *
 from app.serializers import *
 from profiles.models import UserProfile
+from prompts.src.sustainability_profile import create_user_profile
 
 
 @api_view(['GET'])
@@ -30,8 +31,11 @@ def get_valuable_insights(request):
 
         payload.append(row)
 
+    response = create_user_profile(payload)
 
-    return JsonResponse({'insights': payload})
+    # return JsonResponse(payload, safe=False)
+    return JsonResponse({'response': response}, safe=False)
+
 
 
 @api_view(['GET'])
