@@ -1,12 +1,16 @@
+from django.core.validators import MinValueValidator, MaxValueValidator
 from django.db import models
-
-# Create your models here.
+from django.utils import timezone
 
 
 class Egg(models.Model):
-    age = models.IntegerField()
-    health = models.FloatField()
+    dob = models.DateTimeField(default=timezone.now)
+    health = models.FloatField(default=1.0, validators=[MinValueValidator(0), MaxValueValidator(1)])
 
+    def age_in_seconds(self):
+        now = timezone.now()
+        age_timedelta = now - self.dob
+        return age_timedelta.total_seconds()
 
 class Question(models.Model):
 
@@ -25,5 +29,5 @@ class Answer(models.Model):
         )
 
         choice = models.CharField(max_length=10, choices=ANSWER_CHOICES)
-        question_text = models.TextField()
+        answer_text = models.TextField()
         question = models.ForeignKey(Question, on_delete=models.CASCADE)
