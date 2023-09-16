@@ -5,6 +5,7 @@ from django.shortcuts import render, redirect
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
+import random
 
 from app.models import *
 from app.serializers import *
@@ -37,6 +38,22 @@ def get_valuable_insights(request):
     return JsonResponse({'response': response}, safe=False)
 
 
+def generate_reward():
+    prob = 0.12
+
+    REWARDS = [
+        "🎉", "🌟", "🎁", "🥇", "👏", "🍕", "🍦", "🍭", "💎", "🚀", "🌈",
+        "❤️", "🔥", "🍔", "🍺", "🏆", "🎈", "📚", "🎮", "💰", "👑", "🎂",
+        "🌺", "🍩", "🍓", "🍸", "🎵", "🚲", "🌄", "🏖️", "🚁", "🛋️", "🌆",
+        "🌷", "🏀", "🍀", "🎣", "🎤", "🚗", "🌅", "🏕️", "🚢", "🚀", "🎨",
+        "🌻", "⚽", "🌊", "🏹", "🎸", "🚁", "🌇", "🏞️", "🛶", "🛰️", "🎭",
+        "🌹", "🏈", "🏝️", "🏄", "🎷", "🚆", "🌉", "🏔️", "🛵", "🚤", "🎪"
+    ]
+
+    if random.random() <= prob:
+        return random.choice(REWARDS)
+    else:
+        return None  # No reward this time
 
 @api_view(['GET'])
 def get_random_question(request):
@@ -54,6 +71,7 @@ def get_random_question(request):
         data = {
             'question': QuestionSerializer(random_question).data,
             'answers': {item['choice']: item['answer_text'] for item in answers},
+            'reward': generate_reward()
         }
 
         return JsonResponse(data)
