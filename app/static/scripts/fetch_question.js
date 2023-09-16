@@ -23,7 +23,6 @@ fetchQuestion()
 
 function sendResponse(question, choice){
 var UPLOAD_URL = "/submit_selected_answer/"; // Your URL endpoint
-var CSRF_TOKEN = "your_csrf_token_here"; // Replace this with the actual CSRF token
 
 var data = {
   question: question,
