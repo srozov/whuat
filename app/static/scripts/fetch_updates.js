@@ -40,11 +40,13 @@ async function fetchHealthData() {
         
         update(data.health, data.users);
 
-        if (data.active_multiplier == 'MAX-CRACKING COMMUNITY MULTIPLIER'){
-            start_max_multiplier()
+        
+
+        if (data.active_multiplier === 'MAX-CRACKING COMMUNITY MULTIPLIER'){
+            start_max_multiplier();
         }
-        else if (data.active_multiplier ==  'cracking multiplier') {
-            start_cracking_multiplier()
+        else if (data.active_multiplier ===  'cracking multiplier') {
+            start_cracking_multiplier();
         }
 
     } catch (error) {

@@ -5,6 +5,12 @@ async function fetchQuestion() {
         const response = await fetch('/get_random_question');
         const data = await response.json();
 
+        
+        if (data.new_url) {
+            window.location.href = data.new_url;
+            return; 
+        }
+
         document.getElementById('question').innerText = data.question.question_text
         document.getElementById('choice1').innerText = data.answers.A
         document.getElementById('choice2').innerText = data.answers.B

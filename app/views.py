@@ -57,14 +57,13 @@ def generate_reward():
     else:
         return None  # No reward this time
 
-@api_view(['GET'])
 def get_random_question(request):
-
     egg, created = Egg.objects.get_or_create()
 
     if not egg.health():
         print('here')
-        return redirect('/results')
+        data = {"new_url": "/results"}
+        return JsonResponse(data)
 
     # Fetch a random question which hasn't yet been answered by the user
     user_profile = request.user.userprofile
