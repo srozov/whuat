@@ -24,7 +24,6 @@ def signup(request):
                 user = User.objects.create_user(username=username)
                 user_profile = UserProfile.objects.create(
                     user=user,
-                    number_of_answered_questions=0,
                 )
 
                 login(request, user)
