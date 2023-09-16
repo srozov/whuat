@@ -4,8 +4,26 @@ from django.utils import timezone
 
 
 class Egg(models.Model):
+    CRACKING_MULTIPLIER = (0.3, 'cracking multiplier')
+    MAX_CRACKING_COMMUNITY_MULTIPLIER = (0.5, 'MAX-CRACKING COMMUNITY MULTIPLIER')
+
     dob = models.DateTimeField(default=timezone.now)
-    health = models.FloatField(default=1.0, validators=[MinValueValidator(0), MaxValueValidator(1)])
+    # health = models.FloatField(default=1.0, validators=[MinValueValidator(0), MaxValueValidator(1)])
+    MAX_ANSWERS = 100
+
+    def health(self):
+        return max(1.0 - SelectedAnswer.objects.count() / self.MAX_ANSWERS, 0.0)
+
+    def active_multiplier(self):
+        if self.health() < 1 - self.MAX_CRACKING_COMMUNITY_MULTIPLIER[0]:
+            return self.MAX_CRACKING_COMMUNITY_MULTIPLIER[1]
+
+        elif self.health() < 1 - self.CRACKING_MULTIPLIER[0]:
+            return self.CRACKING_MULTIPLIER[1]
+
+        else:
+            return
+
 
     def age_in_seconds(self):
         now = timezone.now()

@@ -85,8 +85,9 @@ def state(request):
 
     data = {
         'active_users_count': active_users_count,
-        'health': egg.health,
+        'health': egg.health(),
         'age': egg.age_in_seconds(),
+        'active_multiplier': egg.active_multiplier(),
     }
 
     # Return the data as JSON response
