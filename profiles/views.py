@@ -1,25 +1,36 @@
+from django.contrib.auth.models import User
 from django.shortcuts import render
 
 # Create your views here.
 from django.shortcuts import render, redirect
 
-from .forms import SignUpForm
+from .forms import SimpleSignUpForm
 from .models import UserProfile
 
 
 def signup(request):
     if request.method == 'POST':
-        form = SignUpForm(request.POST)
+        form = SimpleSignUpForm(request.POST)
         if form.is_valid():
-            user = form.save()  # Create User
-            user_profile = UserProfile.objects.create(
-                user=user,
-                number_of_answered_questions=0,
-            )  # Create UserProfile
 
-            # You can add a success message or redirect the user to a login page here.
-            return redirect('login')
+            username = form.cleaned_data['username']
+
+            # Check if a user with the same username already exists
+            if not User.objects.filter(username=username).exists():
+                # Create a User instance
+                user = User.objects.create_user(username=username)
+                user_profile = UserProfile.objects.create(
+                    user=user,
+                    number_of_answered_questions=0,
+                )
+                return redirect('/')  # Redirect to the login page or another appropriate page
+
+            # Handle the case where the username is already taken
+            else:
+                form.add_error('username', 'This username is already taken.')
+
+            return redirect('/')
     else:
-        form = SignUpForm()
+        form = SimpleSignUpForm()
 
     return render(request, 'signup.html', {'form': form})
