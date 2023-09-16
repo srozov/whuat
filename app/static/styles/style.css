@@ -123,7 +123,6 @@
     background-color: rgb(32,36,44, 1);
     border: 1px solid rgba(32,46,44, 1);
     border-radius: 8px;
-    
     width: 320px;
     height: 100px;
     margin: auto;
@@ -135,7 +134,6 @@
   color: rgba(32,46,44, 1);
 }
 
-
 .icon {
     cursor: pointer;
 }
@@ -143,7 +141,7 @@
 #footer {
   width: 100%;
   position: absolute;
-  bottom: 20px
+  bottom: 90px
 }
 
 #footer-container {
