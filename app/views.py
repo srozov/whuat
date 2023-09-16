@@ -1,3 +1,4 @@
+from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from django.http import JsonResponse, HttpResponseForbidden
 from django.shortcuts import render, redirect
@@ -7,6 +8,7 @@ from rest_framework.response import Response
 
 from app.models import *
 from app.serializers import *
+from profiles.models import UserProfile
 
 
 @api_view(['GET'])
@@ -36,7 +38,13 @@ def submit_selected_answer(request):
         # Save the submitted SelectedAnswer
         serializer.save()
 
+        print(request.user.id)
+        print(UserProfile.objects.get(user=request.user.id))
+
+        user_profile = UserProfile.objects.get(user__id=request.user.id)
+        user_profile.answered_questions.add(serializer.data.question)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
+
     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
