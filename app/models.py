@@ -5,7 +5,10 @@ from django.utils import timezone
 
 class Egg(models.Model):
     dob = models.DateTimeField(default=timezone.now)
-    health = models.FloatField(default=1.0, validators=[MinValueValidator(0), MaxValueValidator(1)])
+    # health = models.FloatField(default=1.0, validators=[MinValueValidator(0), MaxValueValidator(1)])
+    MAX_ANSWERS = 100
+    def health(self):
+        return max(1.0 - SelectedAnswer.objects.count() / self.MAX_ANSWERS, 0.0)
 
     def age_in_seconds(self):
         now = timezone.now()
