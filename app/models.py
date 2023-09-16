@@ -15,6 +15,8 @@ class Egg(models.Model):
 class Question(models.Model):
 
     question_text = models.TextField()
+    themes = models.TextField()
+
     previous_question = models.OneToOneField(
         'self', null=True, blank=True, related_name='next_question', on_delete=models.SET_NULL
     )
@@ -39,6 +41,7 @@ class Answer(models.Model):
 
 class SelectedAnswer(models.Model):
 
+    userprofile = models.ForeignKey('profiles.UserProfile', on_delete=models.CASCADE)
     choice = models.CharField(max_length=10, choices=Answer.ANSWER_CHOICES)
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
 

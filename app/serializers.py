@@ -18,4 +18,4 @@ class AnswerSerializer(serializers.ModelSerializer):
 class SelectedAnswerSerializer(serializers.ModelSerializer):
     class Meta:
         model = SelectedAnswer
-        fields = ('question', 'choice')
+        fields = ('question', 'choice', 'userprofile')

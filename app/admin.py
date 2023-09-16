@@ -1,5 +1,4 @@
 from django.contrib import admin
-from django.db.models import Count
 
 from .models import Egg, Question, Answer, SelectedAnswer
 
@@ -15,12 +14,6 @@ class AnswerInline(admin.TabularInline):
     extra = 1
     readonly_fields = ['selected_answer_count']
 
-    # def formfield_for_foreignkey(self, db_field, request, **kwargs):
-    #     if db_field.name == "question":
-    #         kwargs["queryset"] = Question.objects.annotate(
-    #             selected_answer_count=Count('selectedanswer')
-    #         )
-    #     return super().formfield_for_foreignkey(db_field, request, **kwargs)
 
 @admin.register(Question)
 class QuestionAdmin(admin.ModelAdmin):
@@ -37,6 +30,6 @@ class AnswerAdmin(admin.ModelAdmin):
 
 @admin.register(SelectedAnswer)
 class SelectedAnswerAdmin(admin.ModelAdmin):
-    list_display = ('choice', 'question')
+    list_display = ('choice', 'question', 'userprofile')
     list_filter = ('question',)
     search_fields = ('choice', 'question__question_text')
