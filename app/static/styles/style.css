@@ -29,7 +29,7 @@
   
   #lower {
     position: relative;
-    background-color: rgba(30,33,42, 0.8);
+    background-color: rgb(72,76,84);
     border-radius: 14px 14px 0px 0px;
     flex-grow: 1;
     overflow: auto;
@@ -47,7 +47,7 @@
   position: absolute;
   top: 40px;
   right: 40px;
-  font-size: 2.5em;
+  font-size: 23px;
   padding: 8px;
   background-color: rgb(32,36,44, 1);
   border-radius: 8px;
@@ -60,6 +60,7 @@
     left: 40px;
     font-size: 24px;
     padding: 8px;
+    display: none;
 }
 
 
@@ -98,34 +99,36 @@
 
 /* Lower Section */
 #question {
-  padding: 80px 80px;
+  padding: 30px 30px;
   margin: auto;
   background-color: rgb(64,60,76);
   font-weight: 100;
-  font-size: 52px;
-
+  font-size: 23px;
 }
 
 #choices {
-    width: 90%;
+    width: 100vw;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 40px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns */
-    gap: 40px; /* Space between grid items */
+    grid-template-columns: 2fr 2fr; /* 2 columns */
+    justify-content: center;
+    gap: 12px; /* Space between grid items */
+    padding: 10px;
 
 }
 
 .choice {
-    padding: 40px;
+    padding: 12px;
     text-align: center;
-    font-size: 35px;
+    font-size: 20px;
     background-color: rgb(32,36,44, 1);
     border: 1px solid rgba(32,46,44, 1);
     border-radius: 8px;
-    width: 320px;
-    height: 100px;
+    width: 175px;
+    height: 75px;
     margin: auto;
+    cursor: pointer;
 }
 
 .choice:hover{
@@ -141,7 +144,7 @@
 #footer {
   width: 100%;
   position: absolute;
-  bottom: 90px
+  bottom: 50px
 }
 
 #footer-container {
@@ -151,7 +154,14 @@
 
 #mic {
   position: absolute;
-  width: 64px;
-  height: 64px;
+  width: 32px;
+  height: 32px;
   left: 20px; 
+}
+
+#upgrade{
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  right: 20px; 
 }
