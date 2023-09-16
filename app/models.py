@@ -21,16 +21,21 @@ class Question(models.Model):
 
 class Answer(models.Model):
 
-        ANSWER_CHOICES = (
+    ANSWER_CHOICES = (
             ('A', 'A'),
             ('B', 'B'),
             ('C', 'C'),
             ('D', 'D'),
         )
 
-        choice = models.CharField(max_length=10, choices=ANSWER_CHOICES)
-        answer_text = models.TextField()
-        question = models.ForeignKey(Question, on_delete=models.CASCADE)
+    choice = models.CharField(max_length=10, choices=ANSWER_CHOICES)
+    answer_text = models.TextField()
+    question = models.ForeignKey(Question, on_delete=models.CASCADE)
+
+    def selected_answer_count(self):
+        # Calculate the count of related SelectedAnswer instances for this Answer
+        return SelectedAnswer.objects.filter(question=self.question, choice=self.choice).count()
+
 
 class SelectedAnswer(models.Model):
 
