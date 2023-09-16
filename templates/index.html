@@ -46,27 +46,27 @@
 
     <div id="lower">
       <!-- <h3> {{ user_greeting }} {{ username }} </h3> -->
-      <h2 id="question">Why do you think it’s important for our generation you to be sustainable?</h2>
+      <h2 id="question"></h2>
 
       <div id="choices">
         <div class="choice-container">
           <div class="choice" id="choice1">
-            Saving the planet from climate change
+            
           </div>
         </div>
         <div class="choice-container">
           <div class="choice" id="choice2">
-            Keep the economy to keep going
+            
           </div>
         </div>
         <div class="choice-container">
         <div class="choice" id="choice3">
-          Legacy for future generations
+          
         </div>
       </div>
       <div class="choice-container">
         <div class="choice" id="choice4">
-          Fair access to resources
+          
         </div>
       </div>
     
@@ -81,8 +81,11 @@
   
 
   </div>
-  
+  <script>
+    const CSRF_TOKEN = "{{ csrf_token }}"
+  </script>
   <script src="{% static 'scripts/egg_health.js' %}"></script>
+  <script src="{% static 'scripts/fetch_question.js' %}"></script>
 
 </body>
 
