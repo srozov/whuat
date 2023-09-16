@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fading String</title>
+  <style>
+    .fading-string {
+      font-size: 32px;
+      transition: all 2s ease;
+      opacity: 1;
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+  <div style="position:relative;">
+    <img id="my-image" src="before.png" height="300px" width="300px">
+  </div>
+  <script>
+    window.addEventListener("load", function() {
+      var imgElement = document.getElementById("my-image");
+
+      // Function to generate fading string at (x, y) relative to the image
+      function generateFadingString(x, y) {
+        var fadingStringElement = document.createElement("div");
+        fadingStringElement.classList.add("fading-string");
+        fadingStringElement.textContent = "+1";
+
+        // Position it
+        fadingStringElement.style.left = x + "px";
+        fadingStringElement.style.top = y + "px";
+
+        imgElement.parentElement.appendChild(fadingStringElement);
+
+        // Trigger animation
+        setTimeout(function() {
+          fadingStringElement.style.opacity = 0;
+          fadingStringElement.style.transform = "translateY(-50px)";
+        }, 100);
+
+        // Remove element after animation is complete
+        setTimeout(function() {
+          fadingStringElement.remove();
+        }, 2100);
+      }
+
+      height = 50
+      i = 0
+      // Generate a fading string at (50, 50) relative to the image
+      a = setInterval(()=>{
+        if (i%2 == 0){
+            generateFadingString(220, 70);
+        }
+        if (i%2 == 1){
+            generateFadingString(230, 70);
+        }
+        i++
+        if (i == 10){
+            clearInterval(a)
+        }
+      }, 700)
+      // You can add more calls to generateFadingString(x, y) here
+    });
+  </script>
+</body>
+</html>
