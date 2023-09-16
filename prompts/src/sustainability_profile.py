@@ -1,6 +1,5 @@
 import openai, json, os
-
-from prompts.src.prompts import UserProfilePrompt
+from .prompts import UserProfilePrompt
 
 openai.api_key = os.getenv("OPENAI_KEY")
 openai.organization = os.getenv("OPENAI_ORGANIZATION")
@@ -12,10 +11,10 @@ def create_user_profile(personal_answers):
         # send the API request
         completion = openai.ChatCompletion.create(
             model="gpt-4",
-            messages = profile_prompt.messages(),
+            messages = profile_prompt.messages(personal_answers),
         )
     except Exception as e:
-        print("Couldn't make OpenAI request " + e)
+        print(f"Couldn't make OpenAI request {e}")
 
     try:
         response = json.loads(completion.choices[0].message.content)
@@ -24,15 +23,6 @@ def create_user_profile(personal_answers):
     except ValueError as err:
         print("Couldn't parse OpenAI response as JSON " + "err" +completion.choices[0].message.content)
     except Exception as err:
-        print("Couldn't parse OpenAI response " + err)
+        print(f"Couldn't parse OpenAI response {err}")
 
     return response
-
-if __name__ == "__main__":
-    answers= []
-    with open("prompts/selected_answers.jsonl", "r") as infile:
-        for l in infile:
-            answers.append(json.loads(l))
-
-    profile= create_user_profile(answers)
-    print(profile)

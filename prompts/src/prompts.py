@@ -1,3 +1,5 @@
+import json
+
 class UserProfilePrompt:
     def __init__(self):
         self.chat_context= "You are a helpful writing assistant."
@@ -15,7 +17,7 @@ class UserProfilePrompt:
 
             Your task is to create a short profile for me. For each question, look at the themes as if they are character traits. What do my choices tell you about me in terms of each theme? Most of the themes can be seen as an axis from "don't care" to "very important". How high do I score on each of these axes? Repeat this process for every question. Finally, produce an average score for every theme that has at least 5 answers.
 
-            With this analysis, can you now produce an overall character profile about me, that relies heavily on my scores for each theme, but also fleshes it out with a cute background story? Think like a Buzzfeed quiz result.
+            With this analysis, can you now produce an overall character profile about me, that relies heavily on my scores for each theme, but also fleshes it out with a cute background story? Think like a Buzzfeed quiz result. Scores should count up to 5.
             Write the score only for the *top 5* themes, that have enough answers and are different enough from each other. Then write a short paragraph max 50 words with the profile.
 
             > Let's try a short example
@@ -47,14 +49,18 @@ class UserProfilePrompt:
             Isn't this cool, Part-Time Green Giant?! You're making moves, just need a nudge here and there to really conquer this green game! 🌍💚
         """
         self.feedback = """
-            Good job! Your reasoning is sound.
-            Please don't write out your reasoning or an explanation for the real input.
+            Good job! Your reasoning is sound. However, please don't write out your reasoning or an explanation for the real input.
             If you really want to say something more in the profile, you can squeeze it, but keep it short and sweet: aim for 50 words, but 70 words is the hard limit.
+
+            Create a real response.
+        """
+        self.attempt2= """
+            {"scores": {"Avoiding disposable items": 2.3, "Packaging": 2.7, "Waste reduction": 2.3, "Energy efficiency": 5, "Overconsumption avoidance": 5}, "profile": "Hey there, Part-Time Green Giant! Your canvas bag and smart thermostat are winners, but swapping those disposable plates for reusable ones could up your green game. No beach cleanups? That's your call, we get it! Keep on this path, and you'll be an Eco Hero!"}
         """
 
     def lead(self, personal_answers):
         "Personal answers must be a list of JSON strings with the 'answer' format"
-        return "```\n"+"\n".join(personal_answers)+"\n```"
+        return "```\n"+"\n".join([json.dumps(answer) for answer in personal_answers])+"\n```"
 
     def messages(self, personal_answers):
         "Personal answers must be a list of JSON strings with the 'answer' format"
@@ -70,6 +76,14 @@ class UserProfilePrompt:
             },
             {
                 "role": "user",
-                "content": self.feedback + '\n' + self.lead(personal_answers),
+                "content": self.feedback,
+            },
+            {
+                "role": "assistant",
+                "content": self.attempt2,
+            },
+            {
+                "role": "user",
+                "content": self.lead(personal_answers),
             },
         ]

@@ -1,0 +1,5 @@
+[virtualenvs]
+in-project = true
+
+[repositories.idunlib]
+url = "https://github.com/iduntech/idn-guardian-library"
