@@ -31,3 +31,10 @@ class Answer(models.Model):
         choice = models.CharField(max_length=10, choices=ANSWER_CHOICES)
         answer_text = models.TextField()
         question = models.ForeignKey(Question, on_delete=models.CASCADE)
+
+class SelectedAnswer(models.Model):
+
+    choice = models.CharField(max_length=10, choices=Answer.ANSWER_CHOICES)
+    question = models.ForeignKey(Question, on_delete=models.CASCADE)
+
+

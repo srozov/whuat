@@ -1,5 +1,5 @@
+from django.contrib.auth import login
 from django.contrib.auth.models import User
-from django.shortcuts import render
 
 # Create your views here.
 from django.shortcuts import render, redirect
@@ -26,6 +26,9 @@ def signup(request):
                     user=user,
                     number_of_answered_questions=0,
                 )
+
+                login(request, user)
+
                 return redirect('/')  # Redirect to the login page or another appropriate page
 
             # Handle the case where the username is already taken
