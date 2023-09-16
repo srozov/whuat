@@ -5,10 +5,12 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.db import models
 
+from app.models import Question
+
+
 class UserProfile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    number_of_answered_questions = models.PositiveIntegerField(null=True, blank=True)
-    # Add other fields as needed
+    answered_questions = models.ManyToManyField(Question, blank=True)
 
     def __str__(self):
         return self.user.username
