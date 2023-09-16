@@ -35,7 +35,7 @@ function countFromTo(start, end, updateUI) {
 
 async function fetchHealthData() {
     try {
-        const response = await fetch('/update');
+        const response = await fetch('/state');
         const data = await response.json();
         
         update(data.health, data.users);
@@ -43,7 +43,7 @@ async function fetchHealthData() {
         if (data.active_multiplier == 'MAX-CRACKING COMMUNITY MULTIPLIER'){
             start_max_multiplier()
         }
-        elif (data.active_multiplier ==  'cracking multiplier'){
+        else if (data.active_multiplier ==  'cracking multiplier') {
             start_cracking_multiplier()
         }
 

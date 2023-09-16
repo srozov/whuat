@@ -64,7 +64,7 @@ def get_random_question(request):
 
     if not egg.health():
         print('here')
-        return redirect('results')
+        return redirect('/results')
 
     # Fetch a random question which hasn't yet been answered by the user
     user_profile = request.user.userprofile
