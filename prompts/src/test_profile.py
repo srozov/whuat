@@ -1,11 +1,13 @@
+# Run from repo root
+
 import json
 
 questions= []
-with open("test_data/questions.jsonl", "r") as qfile:
+with open("prompts/test_data/questions.jsonl", "r") as qfile:
     for l in qfile:
         questions.append(json.loads(l))
 choices= []
-with open("test_data/choices.txt", "r") as cfile:
+with open("prompts/test_data/choices.txt", "r") as cfile:
     for l in cfile:
         choices.append(int(l.strip()))
 
@@ -16,7 +18,7 @@ def answer(question, i):
                        "alternatives": question["answers"][:i] + question["answers"][i+1:],
                        "themes": question["themes"]}
 
-with open("test_data/selected_answers.jsonl", "w") as outfile:
+with open("prompts/test_data/selected_answers.jsonl", "w") as outfile:
     for c,q in zip(choices, questions):
         json.dump(answer(q, c), outfile)
         outfile.write("\n")

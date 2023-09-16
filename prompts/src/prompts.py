@@ -1,3 +1,5 @@
+import json
+
 class UserProfilePrompt:
     def __init__(self):
         self.chat_context= "You are a helpful writing assistant."
@@ -54,7 +56,7 @@ class UserProfilePrompt:
 
     def lead(self, personal_answers):
         "Personal answers must be a list of JSON strings with the 'answer' format"
-        return "```\n"+"\n".join(personal_answers)+"\n```"
+        return "```\n"+"\n".join([json.dumps(answer) for answer in personal_answers])+"\n```"
 
     def messages(self, personal_answers):
         "Personal answers must be a list of JSON strings with the 'answer' format"
