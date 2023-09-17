@@ -1,4 +1,5 @@
 function start_max_multiplier() {
+    document.getElementById('orange_egg_svg').style.display = 'none'
     document.getElementById('egg_svg').style.display = 'block'
     const choices = document.querySelectorAll('.choice');
     
@@ -49,12 +50,11 @@ function start_max_multiplier() {
         if (i >= 809) {
             clearInterval(intervalId);
         }
-    }, 30);
+    }, 100);
 }
 
-
-
 function start_cracking_multiplier() {
+    document.getElementById('egg_svg').style.display = 'none'
     document.getElementById('orange_egg_svg').style.display = 'block';
     const choices = document.querySelectorAll('.choice');
     
@@ -107,5 +107,5 @@ function start_cracking_multiplier() {
         if (i >= 809) {
             clearInterval(intervalId);
         }
-    }, 30);    
+    }, 300);    
 }

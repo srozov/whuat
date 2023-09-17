@@ -1,6 +1,4 @@
-
-
- #image-container img {
+#image-container img {
      width: 100%;
      overflow: hidden;
  }
@@ -28,6 +26,8 @@
      transition: all 2s ease;
      opacity: 1;
      position: absolute;
+     z-index: 999;
+     color: black;
  }
 
  @keyframes rainbow {

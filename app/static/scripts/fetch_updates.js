@@ -35,7 +35,7 @@ function countFromTo(start, end, updateUI) {
 
 async function fetchHealthData() {
     try {
-        const response = await fetch('/state');
+        const response = await fetch('/state/');
         const data = await response.json();
         
         update(data.health, data.users);
