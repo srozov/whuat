@@ -65,8 +65,10 @@ def generate_reward():
 def get_random_question(request):
     egg, created = Egg.objects.get_or_create()
 
-    if not egg.health():
-        data = {"new_url": "/results"}
+    egg_health = egg.health()
+    print("egg_health", egg_health)
+    if not egg_health:
+        data = {"new_url": "/results/"}
         return JsonResponse(data)
 
     # Fetch a random question which hasn't yet been answered by the user
