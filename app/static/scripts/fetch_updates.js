@@ -16,7 +16,6 @@ function update(health, users) {
     });
     currentHealth = health; // Update the current health value
 }
-
 // Function to count from one value to another and update UI
 function countFromTo(start, end, updateUI) {
     const step = start < end ? 1 : -1; // Determine the direction to count in
@@ -29,20 +28,15 @@ function countFromTo(start, end, updateUI) {
             requestAnimationFrame(updateValue); // Use requestAnimationFrame for smoother transitions
         }
     }
-
     updateValue();
 }
 
 async function fetchHealthData() {
     try {
-
         if (data.health == 0){
         const response = await fetch('/state/');
         const data = await response.json();
         update(data.health, data.users);
-
-        
-
         if (data.active_multiplier === 'MAX-CRACKING COMMUNITY MULTIPLIER'){
             start_max_multiplier();
         }

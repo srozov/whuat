@@ -37,7 +37,12 @@
     top: 54vh;
     overflow: none;
     z-index: 10;
+    width: 100%;
   }
+
+label {
+  font-size: 18px;
+}
 
 .black {
     background-color: var(--dark-black);

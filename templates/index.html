@@ -19,10 +19,38 @@
       background-size: cover;
       z-index: 2;
     }
+
+    #disclaimer {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.8);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      z-index: 9999; /* High z-index value */
+      padding: 20px;
+    }
+
+    /* Media query for smaller screens */
+    @media only screen and (max-width: 425px) {
+      #disclaimer {
+        font-size: 18px;
+        display: none;
+        z-index: -100;
+      }
+    }
   </style>
 </head>
 
 <body>
+  <div id="disclaimer">
+    <strong>Disclaimer: </strong> <br> <br>We are optimised for mobile :)
+  </div>
   <div id="app">
 
     <div id="upper">
