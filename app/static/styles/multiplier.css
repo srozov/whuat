@@ -14,6 +14,15 @@
      z-index: 99;
  }
 
+ #orange_egg_svg{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  width: 62%;
+  z-index: 99;
+ }
+
  .fading-string {
      font-size: 32px;
      transition: all 2s ease;
@@ -24,6 +33,7 @@
  @keyframes rainbow {
     0% {
       background-position: 0% 100%;
+      
     }
     100% {
       background-position: 0% 0%;
@@ -70,3 +80,13 @@
     cursor: pointer;
   }
   
+
+  .orange-background {
+    animation: orangeFade 1s infinite alternate;
+}
+
+@keyframes orangeFade {
+    0% { background-color: transparent; }
+    50% { background-color: rgba(191, 125, 1, 0.6); }
+    100% { background-color: transparent; }
+}
