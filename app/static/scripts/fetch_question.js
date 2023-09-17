@@ -109,7 +109,6 @@ document.getElementById('choice1').addEventListener('click', function() {
     const x = getRandomCoordinate(190, 220);
     const y = getRandomCoordinate(30, 80);
     generateFadingString(x, y, '+1');
-    fetchHealthData()
 });
 
 document.getElementById('choice2').addEventListener('click', function () {
@@ -117,7 +116,6 @@ document.getElementById('choice2').addEventListener('click', function () {
     const x = getRandomCoordinate(190, 220);
     const y = getRandomCoordinate(30, 80);
     generateFadingString(x, y, '+1');
-    fetchHealthData()
 });
 
 document.getElementById('choice3').addEventListener('click', function () {
@@ -125,7 +123,6 @@ document.getElementById('choice3').addEventListener('click', function () {
     const x = getRandomCoordinate(190, 220);
     const y = getRandomCoordinate(30, 80);
     generateFadingString(x, y, '+1');
-    fetchHealthData()
 });
 
 document.getElementById('choice4').addEventListener('click', function () {
@@ -133,5 +130,4 @@ document.getElementById('choice4').addEventListener('click', function () {
     const x = getRandomCoordinate(190, 220);
     const y = getRandomCoordinate(30, 80);
     generateFadingString(x, y, '+1');
-    fetchHealthData()
 });

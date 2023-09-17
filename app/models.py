@@ -9,7 +9,7 @@ class Egg(models.Model):
 
     dob = models.DateTimeField(default=timezone.now)
     # health = models.FloatField(default=1.0, validators=[MinValueValidator(0), MaxValueValidator(1)])
-    MAX_ANSWERS = 20
+    MAX_ANSWERS = 2500
 
     def health(self):
         return max(1.0 - SelectedAnswer.objects.count() / self.MAX_ANSWERS, 0.0)
