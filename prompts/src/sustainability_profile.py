@@ -7,9 +7,8 @@ openai.organization = os.getenv("OPENAI_ORGANIZATION")
 profile_prompt= UserProfilePrompt()
 
 def create_user_profile(personal_answers):
-
-    completion = None
-    response = None
+    print('personal_answers')
+    print(personal_answers)
 
     try:
         # send the API request

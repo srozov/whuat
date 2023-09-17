@@ -1,159 +1,306 @@
-{"question": "Your fave smoothie spot starts serving organic fruits. Your thoughts?", "answers": ["Taste the naturalness!", "Pricey, but pay!", "Not falling for it", "Love the regular"], "themes": ["Organic products", "Healthy choices"]}
-
-{"question": "Buddy packs lunch in a single-use plastic box. Your reaction?", "answers": ["Heck, no!", "Borrow my box!", "It's convenient, right?", "Don't really care"], "themes": ["Waste reduction", "Sustainability"]}
-
-{"question": "Local farmers market or superchain grocery store for veggies?", "answers": ["Support local", "Superchain, it's closer", "Flex both ways", "Don't eat veggies"], "themes": ["Local sourcing", "Sustainable agriculture"]}
-
-{"question": "Craft store starts selling fair trade confetti. Thoughts?", "answers": ["Party responsibly!", "Doesn't really matter", "More expensive, why?", "All for it!"], "themes": ["Fair trade", "Business sustainability"]}
-
-{"question": "Shop starts selling concentrated laundry detergent. You're like...", "answers": ["Less packaging, yay!", "Indifferent, tbh", "Extra water, nope", "Already on it"], "themes": ["Waste reduction","Water conservation"]}
-
-{"question": "You're at the checkout. Paper or plastic bags?", "answers": ["Paper rulez", "Plastic is practical", "Own bags, duh", "Hands, who needs bags?"], "themes": ["Waste reduction", "Pollution reduction"]}
-
-{"question": "Tofu Tuesday or Meaty Monday? Your pick?", "answers": ["Tofu all day", "Gotta have meat", "Why not both?", "Food? Yes, please!"], "themes": ["Plant-based diet", "Carbon footprint reduction"]}
-
-{"question": "Your fave smoothie spot starts serving organic fruits. Your thoughts?", "answers": ["Taste the naturalness!", "Pricey, but pay!", "Not falling for it", "Love the regular"], "themes": ["Organic products", "Healthy choices"]}
-
-{"question": "Buddy packs lunch in a single-use plastic box. Your reaction?", "answers": ["Heck, no!", "Borrow my box!", "It's convenient, right?", "Don't really care"], "themes": ["Waste reduction", "Sustainability"]}
-
-{"question": "Local farmers market or superchain grocery store for veggies?", "answers": ["Support local", "Superchain, it's closer", "Flex both ways", "Don't eat veggies"], "themes": ["Local sourcing", "Sustainable agriculture"]}
-
-{"question": "Craft store starts selling fair trade confetti. Thoughts?", "answers": ["Party responsibly!", "Doesn't really matter", "More expensive, why?", "All for it!"], "themes": ["Fair trade", "Business sustainability"]}
-
-{"question": "Shop starts selling concentrated laundry detergent. You're like...", "answers": ["Less packaging, yay!", "Indifferent, tbh", "Extra water, nope", "Already on it"], "themes": ["Waste reduction","Water conservation"]}
-
-{"question": "You're at the checkout. Paper or plastic bags?", "answers": ["Paper rulez", "Plastic is practical", "Own bags, duh", "Hands, who needs bags?"], "themes": ["Waste reduction", "Pollution reduction"]}
-
-{"question": "Tofu Tuesday or Meaty Monday? Your pick?", "answers": ["Tofu all day", "Gotta have meat", "Why not both?", "Food? Yes, please!"], "themes": ["Plant-based diet", "Carbon footprint reduction"]}
-{"question": "Your fave smoothie spot starts serving organic fruits. Your thoughts?", "answers": ["Taste the naturalness!", "Pricey, but pay!", "Not falling for it", "Love the regular"], "themes": ["Organic products", "Healthy choices"]}
-
-{"question": "Buddy packs lunch in a single-use plastic box. Your reaction?", "answers": ["Heck, no!", "Borrow my box!", "It's convenient, right?", "Don't really care"], "themes": ["Waste reduction", "Sustainability"]}
-
-{"question": "Local farmers market or superchain grocery store for veggies?", "answers": ["Support local", "Superchain, it's closer", "Flex both ways", "Don't eat veggies"], "themes": ["Local sourcing", "Sustainable agriculture"]}
-
-{"question": "Craft store starts selling fair trade confetti. Thoughts?", "answers": ["Party responsibly!", "Doesn't really matter", "More expensive, why?", "All for it!"], "themes": ["Fair trade", "Business sustainability"]}
-
-{"question": "Shop starts selling concentrated laundry detergent. You're like...", "answers": ["Less packaging, yay!", "Indifferent, tbh", "Extra water, nope", "Already on it"], "themes": ["Waste reduction","Water conservation"]}
-
-{"question": "You're at the checkout. Paper or plastic bags?", "answers": ["Paper rulez", "Plastic is practical", "Own bags, duh", "Hands, who needs bags?"], "themes": ["Waste reduction", "Pollution reduction"]}
-
-{"question": "Tofu Tuesday or Meaty Monday? Your pick?", "answers": ["Tofu all day", "Gotta have meat", "Why not both?", "Food? Yes, please!"], "themes": ["Plant-based diet", "Carbon footprint reduction"]}
-{"question": "Your fave smoothie spot starts serving organic fruits. Your thoughts?", "answers": ["Taste the naturalness!", "Pricey, but pay!", "Not falling for it", "Love the regular"], "themes": ["Organic products", "Healthy choices"]}
-
-{"question": "Buddy packs lunch in a single-use plastic box. Your reaction?", "answers": ["Heck, no!", "Borrow my box!", "It's convenient, right?", "Don't really care"], "themes": ["Waste reduction", "Sustainability"]}
-
-{"question": "Local farmers market or superchain grocery store for veggies?", "answers": ["Support local", "Superchain, it's closer", "Flex both ways", "Don't eat veggies"], "themes": ["Local sourcing", "Sustainable agriculture"]}
-
-{"question": "Craft store starts selling fair trade confetti. Thoughts?", "answers": ["Party responsibly!", "Doesn't really matter", "More expensive, why?", "All for it!"], "themes": ["Fair trade", "Business sustainability"]}
-
-{"question": "Shop starts selling concentrated laundry detergent. You're like...", "answers": ["Less packaging, yay!", "Indifferent, tbh", "Extra water, nope", "Already on it"], "themes": ["Waste reduction","Water conservation"]}
-
-{"question": "You're at the checkout. Paper or plastic bags?", "answers": ["Paper rulez", "Plastic is practical", "Own bags, duh", "Hands, who needs bags?"], "themes": ["Waste reduction", "Pollution reduction"]}
-
-{"question": "Tofu Tuesday or Meaty Monday? Your pick?", "answers": ["Tofu all day", "Gotta have meat", "Why not both?", "Food? Yes, please!"], "themes": ["Plant-based diet", "Carbon footprint reduction"]}
-{"question": "Your fave smoothie spot starts serving organic fruits. Your thoughts?", "answers": ["Taste the naturalness!", "Pricey, but pay!", "Not falling for it", "Love the regular"], "themes": ["Organic products", "Healthy choices"]}
-
-{"question": "Buddy packs lunch in a single-use plastic box. Your reaction?", "answers": ["Heck, no!", "Borrow my box!", "It's convenient, right?", "Don't really care"], "themes": ["Waste reduction", "Sustainability"]}
-
-{"question": "Local farmers market or superchain grocery store for veggies?", "answers": ["Support local", "Superchain, it's closer", "Flex both ways", "Don't eat veggies"], "themes": ["Local sourcing", "Sustainable agriculture"]}
-
-{"question": "Craft store starts selling fair trade confetti. Thoughts?", "answers": ["Party responsibly!", "Doesn't really matter", "More expensive, why?", "All for it!"], "themes": ["Fair trade", "Business sustainability"]}
-
-{"question": "Shop starts selling concentrated laundry detergent. You're like...", "answers": ["Less packaging, yay!", "Indifferent, tbh", "Extra water, nope", "Already on it"], "themes": ["Waste reduction","Water conservation"]}
-
-{"question": "You're at the checkout. Paper or plastic bags?", "answers": ["Paper rulez", "Plastic is practical", "Own bags, duh", "Hands, who needs bags?"], "themes": ["Waste reduction", "Pollution reduction"]}
-
-{"question": "Tofu Tuesday or Meaty Monday? Your pick?", "answers": ["Tofu all day", "Gotta have meat", "Why not both?", "Food? Yes, please!"], "themes": ["Plant-based diet", "Carbon footprint reduction"]}
-{"question": "Your fave smoothie spot starts serving organic fruits. Your thoughts?", "answers": ["Taste the naturalness!", "Pricey, but pay!", "Not falling for it", "Love the regular"], "themes": ["Organic products", "Healthy choices"]}
-
-{"question": "Buddy packs lunch in a single-use plastic box. Your reaction?", "answers": ["Heck, no!", "Borrow my box!", "It's convenient, right?", "Don't really care"], "themes": ["Waste reduction", "Sustainability"]}
-
-{"question": "Local farmers market or superchain grocery store for veggies?", "answers": ["Support local", "Superchain, it's closer", "Flex both ways", "Don't eat veggies"], "themes": ["Local sourcing", "Sustainable agriculture"]}
-
-{"question": "Craft store starts selling fair trade confetti. Thoughts?", "answers": ["Party responsibly!", "Doesn't really matter", "More expensive, why?", "All for it!"], "themes": ["Fair trade", "Business sustainability"]}
-
-{"question": "Shop starts selling concentrated laundry detergent. You're like...", "answers": ["Less packaging, yay!", "Indifferent, tbh", "Extra water, nope", "Already on it"], "themes": ["Waste reduction","Water conservation"]}
-
-{"question": "You're at the checkout. Paper or plastic bags?", "answers": ["Paper rulez", "Plastic is practical", "Own bags, duh", "Hands, who needs bags?"], "themes": ["Waste reduction", "Pollution reduction"]}
-
-{"question": "Tofu Tuesday or Meaty Monday? Your pick?", "answers": ["Tofu all day", "Gotta have meat", "Why not both?", "Food? Yes, please!"], "themes": ["Plant-based diet", "Carbon footprint reduction"]}
-{"question": "Your fave smoothie spot starts serving organic fruits. Your thoughts?", "answers": ["Taste the naturalness!", "Pricey, but pay!", "Not falling for it", "Love the regular"], "themes": ["Organic products", "Healthy choices"]}
-
-{"question": "Buddy packs lunch in a single-use plastic box. Your reaction?", "answers": ["Heck, no!", "Borrow my box!", "It's convenient, right?", "Don't really care"], "themes": ["Waste reduction", "Sustainability"]}
-
-{"question": "Local farmers market or superchain grocery store for veggies?", "answers": ["Support local", "Superchain, it's closer", "Flex both ways", "Don't eat veggies"], "themes": ["Local sourcing", "Sustainable agriculture"]}
-
-{"question": "Craft store starts selling fair trade confetti. Thoughts?", "answers": ["Party responsibly!", "Doesn't really matter", "More expensive, why?", "All for it!"], "themes": ["Fair trade", "Business sustainability"]}
-
-{"question": "Shop starts selling concentrated laundry detergent. You're like...", "answers": ["Less packaging, yay!", "Indifferent, tbh", "Extra water, nope", "Already on it"], "themes": ["Waste reduction","Water conservation"]}
-
-{"question": "You're at the checkout. Paper or plastic bags?", "answers": ["Paper rulez", "Plastic is practical", "Own bags, duh", "Hands, who needs bags?"], "themes": ["Waste reduction", "Pollution reduction"]}
-
-{"question": "Tofu Tuesday or Meaty Monday? Your pick?", "answers": ["Tofu all day", "Gotta have meat", "Why not both?", "Food? Yes, please!"], "themes": ["Plant-based diet", "Carbon footprint reduction"]}
-{"question": "Your fave smoothie spot starts serving organic fruits. Your thoughts?", "answers": ["Taste the naturalness!", "Pricey, but pay!", "Not falling for it", "Love the regular"], "themes": ["Organic products", "Healthy choices"]}
-
-{"question": "Buddy packs lunch in a single-use plastic box. Your reaction?", "answers": ["Heck, no!", "Borrow my box!", "It's convenient, right?", "Don't really care"], "themes": ["Waste reduction", "Sustainability"]}
-
-{"question": "Local farmers market or superchain grocery store for veggies?", "answers": ["Support local", "Superchain, it's closer", "Flex both ways", "Don't eat veggies"], "themes": ["Local sourcing", "Sustainable agriculture"]}
-
-{"question": "Craft store starts selling fair trade confetti. Thoughts?", "answers": ["Party responsibly!", "Doesn't really matter", "More expensive, why?", "All for it!"], "themes": ["Fair trade", "Business sustainability"]}
-
-{"question": "Shop starts selling concentrated laundry detergent. You're like...", "answers": ["Less packaging, yay!", "Indifferent, tbh", "Extra water, nope", "Already on it"], "themes": ["Waste reduction","Water conservation"]}
-
-{"question": "You're at the checkout. Paper or plastic bags?", "answers": ["Paper rulez", "Plastic is practical", "Own bags, duh", "Hands, who needs bags?"], "themes": ["Waste reduction", "Pollution reduction"]}
-
-{"question": "Tofu Tuesday or Meaty Monday? Your pick?", "answers": ["Tofu all day", "Gotta have meat", "Why not both?", "Food? Yes, please!"], "themes": ["Plant-based diet", "Carbon footprint reduction"]}
-{"question": "Your fave smoothie spot starts serving organic fruits. Your thoughts?", "answers": ["Taste the naturalness!", "Pricey, but pay!", "Not falling for it", "Love the regular"], "themes": ["Organic products", "Healthy choices"]}
-
-{"question": "Buddy packs lunch in a single-use plastic box. Your reaction?", "answers": ["Heck, no!", "Borrow my box!", "It's convenient, right?", "Don't really care"], "themes": ["Waste reduction", "Sustainability"]}
-
-{"question": "Local farmers market or superchain grocery store for veggies?", "answers": ["Support local", "Superchain, it's closer", "Flex both ways", "Don't eat veggies"], "themes": ["Local sourcing", "Sustainable agriculture"]}
-
-{"question": "Craft store starts selling fair trade confetti. Thoughts?", "answers": ["Party responsibly!", "Doesn't really matter", "More expensive, why?", "All for it!"], "themes": ["Fair trade", "Business sustainability"]}
-
-{"question": "Shop starts selling concentrated laundry detergent. You're like...", "answers": ["Less packaging, yay!", "Indifferent, tbh", "Extra water, nope", "Already on it"], "themes": ["Waste reduction","Water conservation"]}
-
-{"question": "You're at the checkout. Paper or plastic bags?", "answers": ["Paper rulez", "Plastic is practical", "Own bags, duh", "Hands, who needs bags?"], "themes": ["Waste reduction", "Pollution reduction"]}
-
-{"question": "Tofu Tuesday or Meaty Monday? Your pick?", "answers": ["Tofu all day", "Gotta have meat", "Why not both?", "Food? Yes, please!"], "themes": ["Plant-based diet", "Carbon footprint reduction"]}
-{"question": "Your fave smoothie spot starts serving organic fruits. Your thoughts?", "answers": ["Taste the naturalness!", "Pricey, but pay!", "Not falling for it", "Love the regular"], "themes": ["Organic products", "Healthy choices"]}
-
-{"question": "Buddy packs lunch in a single-use plastic box. Your reaction?", "answers": ["Heck, no!", "Borrow my box!", "It's convenient, right?", "Don't really care"], "themes": ["Waste reduction", "Sustainability"]}
-
-{"question": "Local farmers market or superchain grocery store for veggies?", "answers": ["Support local", "Superchain, it's closer", "Flex both ways", "Don't eat veggies"], "themes": ["Local sourcing", "Sustainable agriculture"]}
-
-{"question": "Craft store starts selling fair trade confetti. Thoughts?", "answers": ["Party responsibly!", "Doesn't really matter", "More expensive, why?", "All for it!"], "themes": ["Fair trade", "Business sustainability"]}
-
-{"question": "Shop starts selling concentrated laundry detergent. You're like...", "answers": ["Less packaging, yay!", "Indifferent, tbh", "Extra water, nope", "Already on it"], "themes": ["Waste reduction","Water conservation"]}
-
-{"question": "You're at the checkout. Paper or plastic bags?", "answers": ["Paper rulez", "Plastic is practical", "Own bags, duh", "Hands, who needs bags?"], "themes": ["Waste reduction", "Pollution reduction"]}
-
-{"question": "Tofu Tuesday or Meaty Monday? Your pick?", "answers": ["Tofu all day", "Gotta have meat", "Why not both?", "Food? Yes, please!"], "themes": ["Plant-based diet", "Carbon footprint reduction"]}
-{"question": "Your fave smoothie spot starts serving organic fruits. Your thoughts?", "answers": ["Taste the naturalness!", "Pricey, but pay!", "Not falling for it", "Love the regular"], "themes": ["Organic products", "Healthy choices"]}
-
-{"question": "Buddy packs lunch in a single-use plastic box. Your reaction?", "answers": ["Heck, no!", "Borrow my box!", "It's convenient, right?", "Don't really care"], "themes": ["Waste reduction", "Sustainability"]}
-
-{"question": "Local farmers market or superchain grocery store for veggies?", "answers": ["Support local", "Superchain, it's closer", "Flex both ways", "Don't eat veggies"], "themes": ["Local sourcing", "Sustainable agriculture"]}
-
-{"question": "Craft store starts selling fair trade confetti. Thoughts?", "answers": ["Party responsibly!", "Doesn't really matter", "More expensive, why?", "All for it!"], "themes": ["Fair trade", "Business sustainability"]}
-
-{"question": "Shop starts selling concentrated laundry detergent. You're like...", "answers": ["Less packaging, yay!", "Indifferent, tbh", "Extra water, nope", "Already on it"], "themes": ["Waste reduction","Water conservation"]}
-
-{"question": "You're at the checkout. Paper or plastic bags?", "answers": ["Paper rulez", "Plastic is practical", "Own bags, duh", "Hands, who needs bags?"], "themes": ["Waste reduction", "Pollution reduction"]}
-
-{"question": "Tofu Tuesday or Meaty Monday? Your pick?", "answers": ["Tofu all day", "Gotta have meat", "Why not both?", "Food? Yes, please!"], "themes": ["Plant-based diet", "Carbon footprint reduction"]}
-
-{"question": "Your fave smoothie spot starts serving organic fruits. Your thoughts?", "answers": ["Taste the naturalness!", "Pricey, but pay!", "Not falling for it", "Love the regular"], "themes": ["Organic products", "Healthy choices"]}
-
-{"question": "Buddy packs lunch in a single-use plastic box. Your reaction?", "answers": ["Heck, no!", "Borrow my box!", "It's convenient, right?", "Don't really care"], "themes": ["Waste reduction", "Sustainability"]}
-
-{"question": "Local farmers market or superchain grocery store for veggies?", "answers": ["Support local", "Superchain, it's closer", "Flex both ways", "Don't eat veggies"], "themes": ["Local sourcing", "Sustainable agriculture"]}
-
-{"question": "Craft store starts selling fair trade confetti. Thoughts?", "answers": ["Party responsibly!", "Doesn't really matter", "More expensive, why?", "All for it!"], "themes": ["Fair trade", "Business sustainability"]}
-
-{"question": "Shop starts selling concentrated laundry detergent. You're like...", "answers": ["Less packaging, yay!", "Indifferent, tbh", "Extra water, nope", "Already on it"], "themes": ["Waste reduction","Water conservation"]}
-
-{"question": "You're at the checkout. Paper or plastic bags?", "answers": ["Paper rulez", "Plastic is practical", "Own bags, duh", "Hands, who needs bags?"], "themes": ["Waste reduction", "Pollution reduction"]}
-
-{"question": "Tofu Tuesday or Meaty Monday? Your pick?", "answers": ["Tofu all day", "Gotta have meat", "Why not both?", "Food? Yes, please!"], "themes": ["Plant-based diet", "Carbon footprint reduction"]}
-
+{"question": "On your usual supermarket spree, where's your fresh fruit vibe at?", "answers": ["Locally sourced stand", "Anywhere really", "The organic aisle", "Seasonal picks"], "themes": ["Locally Sourced Food", "Organic products", "Seasonal food"]}
+{"question": "Hey eco-warrior, your meat-consumption game is more like...", "answers": ["Veggie 4 life", "Only on weekends", "Less is more", "Can't do without"], "themes": ["Reducing meat consumption", "Plant-based diet", "healthy choices"]}
+{"question": "Reusable shopping bags: fashion statement or saving the planet?", "answers": ["I rock the reusable", "Half-half with plastic", "Plastic all the way", "Bags? What Bags?"], "themes": ["Reusable shopping bags", "Waste reduction", "climate change"]}
+{"question": "Looking at your pantry, it's overflowing with...", "answers": ["Concentrated stuff", "Bulk buys", "Packaged galore", "Minimalist much?"], "themes": ["Concentrated products", "Packaging", "Overconsumption avoidance"]}
+{"question": "When buying seafood, do you...", "answers": ["Check for sustainable sourcing", "Grab what's available", "Seafood? Nah, Plant-based", "Look for freshness"], "themes": ["Seafood sourcing", "Plant-based diet", "climate change", "Ocean conservation"]}
+{"question": "When you stumble upon an energy-efficient appliance, your reaction is...", "answers": ["Get in my cart", "It depends...", "Nah, regular one's fine", "What's that?"], "themes": ["Energy-efficient appliances", "Sustainable agriculture", "Energy efficiency"]}
+{"question": "In the war against food waste, you stand as a...", "answers": ["Total waste ninja", "Mostly conscious", "Could do better", "Not a soldier yet"], "themes": ["Reducing Food Waste", "Waste reduction", "climate change"]}
+{"question": "Coffee sourcing for you is all about...", "answers": ["Fairtrade", "What's available", "Locally Sourced", "Best price"], "themes": ["Fairtrade products", "Locally Sourced Food", "business sustainability"]}
+{"question": "The language of your labels reads like...", "answers": ["Transparency!", "Never really checked", "Mostly informative", "Labels? Who cares?"], "themes": ["Transparent labelling", "Ethical consumption", "business sustainability"]}
+{"question": "How do you feel about supporting retailers promoting supplier sustainability?", "answers": ["100% on board", "If it's convenient", "Didn't consider it", "Retailer what?"], "themes": ["Support Retailers that Encourage Suppliers to be Sustainable", "business sustainability", "Climate Change", "Green living"]}
+{"question": "Seeing a product marked as 'recyclable', you...", "answers": ["Grab it instantly", "Consider it", "Go for non-recyclable", "Indifferent"], "themes": ["Recyclable products", "Waste reduction", "Recycling and composting"]}
+{"question": "Diversity in your diet be like...", "answers": ["Rainbow on my plate", "Could do with more colors", "Pretty monotonous", "I'm a meat-and-potatoes person"], "themes": ["Diversity of foods", "healthy choices", "Biodiversity"]}
+{"question": "Disposable items? You say...", "answers": ["Never in my cart", "Only if needed", "Disposable is comfortable", "Love the convenience"], "themes": ["Avoiding disposable items", "Waste reduction", "Overconsumption avoidance"]}
+{"question": "Caught red-handed at the bakery, are you rocking...", "answers": ["Pre-packaged goodies", "Only fresh-baked", "Whatever looks yummy", "Avoid the bakery aisle"], "themes": ["Packaging", "Locally Sourced Food", "Healthy choices"]}
+{"question": "Checking out a new sustainable farming product, you are...", "answers": ["Ready to try", "Depends on the price", "Not interested", "What's that?"], "themes": ["Support sustainable farming", "Sustainable agriculture", "climate change"]}
+{"question": "On an average day, how much green is on your plate?", "answers": ["Like a mini jungle", "A decent dash of green", "A speck here and there", "Green? Not my vibe"], "themes": ["Consuming a primarily plant-based diet", "healthy choices", "Plant-based diet"]}
+{"question": "You're cruising through the dairy aisle and your eyes land on...", "answers": ["The organic section", "Local dairies", "Cheapest brands", "Dairy-free options"], "themes": ["Organic food", "Locally Sourced Food", "Plant-based diet"]}
+{"question": "Are your go-to cleaning products...", "answers": ["Super concentrated", "Eco-friendly options", "Cheapest on the shelf", "What's on sale"], "themes": ["Concentrated products", "Green living", "Overconsumption avoidance"]}
+{"question": "Choosing seafood, your radar is on for...", "answers": ["Sustainable sourcing", "Best price", "Fish...No thanks", "Freshest catch"], "themes": ["Seafood sourcing", "Plant-based diet", "Ocean conservation"]}
+{"question": "Are your health and earth's health on the same page?", "answers": ["Absolutely", "Mostly", "Seldom", "What?!"], "themes": ["Choice of healthy foods", "healthy choices", "climate change"]}
+{"question": "Cruising the pasta aisle, you grab the...", "answers": ["Organic whole-grain", "Cheapest brand", "Locally produced", "Any, really"], "themes": ["Organic food", "Locally Sourced Food", "healthy choices"]}
+{"question": "Are you besties with retailers promoting supplier sustainability?", "answers": ["BFFs!", "On good terms", "Need to know more", "Retailer...who?"], "themes": ["Support Retailers that Encourage Suppliers to be Sustainable", "business sustainability", "climate change"]}
+{"question": "Seasonal fruits: A fresh-picked dream or more of a daydream?", "answers": ["Always in my basket", "Occasionally", "Seldom", "Seasons don't rule me"], "themes": ["Seasonal food", "Locally Sourced Food", "Sustainable agriculture"]}
+{"question": "So, is your meal planning game leaving food waste behind?", "answers": ["Crushing it!", "Working on it", "Uh, need help?", "Meal... what?"], "themes": ["Reduction of food waste", "climate change", "Waste reduction"]}
+{"question": "Chillin' with your new energy-efficient appliance is...", "answers": ["Always", "Most times", "Rare", "Never"], "themes": ["Energy-efficient appliances", "climate change", "Energy efficiency"]}
+{"question": "What's your vibe with overpackaged goods?", "answers": ["No go zone", "Only if necessary", "Can't avoid them", "No problem"], "themes": ["Packaging", "Waste reduction", "climate change"]}
+{"question": "Let's spill the beans! Your coffee sourcing strategy is all about...", "answers": ["Fairtrade", "Cheapest one", "Fancy brands", "What's available"], "themes": ["Fairtrade products", "Ethical consumption", "business sustainability"]}
+{"question": "Do you dig diversity on your dinner plate?", "answers": ["Yes, variety is spice!", "Often", "Rarely", "Same ol', same ol'"], "themes": ["Diversity of foods", "healthy choices", "Biodiversity"]}
+{"question": "Your fight against disposable items is...", "answers": ["Strong", "A slow battle", "Barely there", "Nonexistent"], "themes": ["Avoiding disposable items", "climate change", "Waste reduction"]}
+{"question": "Is transparency your language when reading labels?", "answers": ["Totally", "Occasionally", "Hardly", "Labels? Huh?"], "themes": ["Transparent labelling", "business sustainability", "Ethical consumption"]}
+{"question": "Bag it up, eco-style! Reusable or disposable?", "answers": ["Reusable", "Disposable", "Mix 'n Match", "Car-to-kitchen"], "themes": ["Reusable shopping bags", "Waste reduction", "climate change"]}
+{"question": "Eyeing a recyclable product, you...", "answers": ["Get it!", "Consider it", "Walk past", "What's recyclable?"], "themes": ["Recyclable products", "climate change", "Waste reduction", "Recycling and composting"]}
+{"question": "An innovation in sustainable farming, you'd say...", "answers": ["Bring it on", "Depends on the cost", "Not interested", "What innovation?"], "themes": ["Support sustainable farming", "climate change", "Sustainable agriculture"]}
+{"question": "Meal prep scene: Major food wastage or major food saving?", "answers": ["Food saver", "A bit wasteful", "Somewhere in between", "Meal prep? Huh?"], "themes": ["Reduction of food waste", "Waste reduction", "climate change"]}
+{"question": "What's your story with local, seasonal food?", "answers": ["Lover", "Just a friend", "Seldom acquainted", "Total stranger"], "themes": ["Seasonal food", "Locally Sourced Food", "Sustainable agriculture", "climate change"]}
+{"question": "Are you helping or hoarding when it comes to overpackaged goods?", "answers": ["Helping, totally", "Half and half", "Mostly hoarding", "I am the hoarder"], "themes": ["Packaging", "Waste reduction", "climate change"]}
+{"question": "Your kitchen gear: energy-efficient or energy-eating?", "answers": ["Efficient as it gets", "Balanced", "Eats up quite a bit", "Hungry for energy"], "themes": ["Energy-efficient appliances", "Energy efficiency", "climate change"]}
+{"question": "Seafood sourcing for you is...", "answers": ["Sustainably or bust", "Whatever's available", "Sea...what?", "Freshness first"], "themes": ["Seafood sourcing", "Plant-based diet", "climate change", "Ocean conservation"]}
+{"question": "Green building materials in your home, how about it?", "answers": ["Yes, please!", "Interested", "Doesn't matter", "What's green building?"], "themes": ["Green building", "business sustainability", "Climate change", "Sustainably-sourced materials"]}
+{"question": "Fairtrade products: Supporting the cause?", "answers": ["100%", "Sometimes", "Not really", "Fair-what?"], "themes": ["Fairtrade products", "business sustainability", "Ethical consumption"]}
+{"question": "Transparent labels: Clear choices?", "answers": ["Crystal clear", "Occasional clarity", "Clouded judgement", "What's in a label?"], "themes": ["Transparent labelling", "Ethical consumption", "business sustainability"]}
+{"question": "Seafood choices: Catch of the day or sustainable source?", "answers": ["Sustainable source", "Catch of the day", "Mix of both", "Plant-based"], "themes": ["Seafood sourcing", "climate change", "Ocean conservation"]}
+{"question": "Ready to support retailers backing sustainable suppliers?", "answers": ["Totally", "Depending on the product", "Rarely", "Retailer what?"], "themes": ["Support Retailers that Encourage Suppliers to be Sustainable", "business sustainability", "Climate Change", "Green living"]}
+{"question": "Food on your plate: A riot of colors or 50 shades of green?", "answers": ["Color Riot", "50 shades of green", "More brown than green", "White and beige"], "themes": ["Diversity of foods", "healthy choices", "Biodiversity"]}
+{"question": "For the love of plants: Main diet or side scenes?", "answers": ["Main diet", "Half-half", "Side scenes", "More a carnivore"], "themes": ["Consuming a primarily plant-based diet", "healthy choices", "Reducing meat consumption"]}
+{"question": "Energy-efficient appliances: Playing house or houseguest?", "answers": ["Playing house", "Part-time houseguest", "Barely visiting", "Appliance what?"], "themes": ["Energy-efficient appliances", "climate change", "Energy efficiency"]}
+{"question": "Fresh seafood: Sustainably sourced or budget catch?", "answers": ["Sustainably sourced", "Budget catch", "Depends", "Skip the seafood"], "themes": ["Seafood sourcing", "climate change", "Ocean conservation"]}
+{"question": "Cleaning scene: Concentrated or convenient?", "answers": ["Concentrated", "Convenient", "Depends", "Just clean"], "themes": ["Concentrated products", "Waste reduction", "Green living"]}
+{"question": "Dinner plate: Fresh local produce or imported exotics?", "answers": ["Fresh local", "Imported exotics", "Mix of both", "Whatever's available"], "themes": ["Locally Sourced Food", "Sustainable agriculture", "climate change"]}
+{"question": "Go green or go home: What's your building material vibe?", "answers": ["Go green", "Go affordable", "Go durable", "Go what?"], "themes": ["Green building", "Sustainably-sourced materials", "climate change", "business sustainability"]}
+{"question": "Grocery run: A plastic fantasia or reusable rhythm?", "answers": ["Reusable rhythm", "Plastic fantasia", "Balanced beat", "Home delivery harmony"], "themes": ["Reusable shopping bags", "Packaging", "climate change"]}
+{"question": "Buying meat: Less for earth or more for craving?", "answers": ["Less for earth", "More for craving", "Balanced diet", "Strictly plant-based"], "themes": ["Reducing meat consumption", "Plant-based diet", "healthy choices"]}
+{"question": "Packing lunch: Tiffins or takeaway containers?", "answers": ["Tiffins", "Takeaway containers", "Mix, based on mood", "Who packs lunch?"], "themes": ["Avoiding disposable items", "Waste reduction", "Overconsumption avoidance"]}
+{"question": "Prefer your groceries wrapped in?", "answers": ["Paper", "Plastic", "Bio-degradable materials", "No wraps at all"], "themes": ["Packaging", "Waste reduction", "climate change"]}
+{"question": "Love for local: Home turf or exotic?", "answers": ["Home turf", "Exotic", "Balance of both", "All about the taste"], "themes": ["Locally Sourced Food", "Diversity of foods", "climate change", "Sustainable agriculture"]}
+{"question": "Produce purchase: Packaged deal or free-spirit?", "answers": ["Free-spirit", "Packaged deal", "Depends on the product", "What's available"], "themes": ["Packaging", "Waste reduction", "climate change", "Overconsumption avoidance"]}
+{"question": "Seafood preference: Oceanic journey or fish-farmed?", "answers": ["Oceanic journey", "Fish-farmed", "Whichever's freshest", "Fish? Nah"], "themes": ["Seafood sourcing", "Ocean conservation", "Plant-based diet", "climate change"]}
+{"question": "Supermarket star: Discount diva or ethical champion?", "answers": ["Ethical champion", "Discount diva", "Balance of both", "All about quality"], "themes": ["Ethical consumption", "business sustainability", "Fairtrade products"]}
+{"question": "Shine a light on your shopping choices. Your priority is...", "answers": ["Climate-friendly", "Wallet-friendly", "Quality-friendly", "Convenience-friendly"], "themes": ["climate change", "business sustainability", "Ethical consumption"]}
+{"question": "Packed to-go meal: Paper, plastic, or bring your own?", "answers": ["Bring your own", "Paper", "Plastic", "Whatever they give"], "themes": ["Packaging", "Reusable shopping bags", "climate change", "Waste reduction"]}
+{"question": "Fresh dairy: Local or Imported?", "answers": ["Local", "Imported", "Cheapest", "Dairy-Free"], "themes": ["Locally Sourced Food", "climate change", "Sustainable agriculture"]}
+{"question": "Supermarket Snack Attack: Healthy aisle or junk junction?", "answers": ["Healthy aisle", "Junk junction", "Bit of both", "Avoid snacking"], "themes": ["Choice of healthy foods", "healthy choices", "Overconsumption avoidance"]}
+{"question": "Checking out labels: Crystal clear or muddled mystery?", "answers": ["Crystal clear", "Somewhat clear", "A bit muddled", "Don't check labels"], "themes": ["Transparent labelling", "business sustainability", "Ethical consumption"]}
+{"question": "Switch it up: Energy-saving or energy-consuming?", "answers": ["Energy-saving", "Balanced", "Energy-consuming", "What's energy-saving?"], "themes": ["Energy-efficient appliances", "Energy efficiency", "climate change"]}
+{"question": "Choosing proteins: Variety's the spice or same old?", "answers": ["Variety's the spice", "Same old", "Lean on greens", "Don't really care"], "themes": ["Diversity of foods", "healthy choices", "Biodiversity"]}
+{"question": "Are your retail shopping choices making a global impact?", "answers": ["Definitely", "Maybe", "Not sure", "Global what?"], "themes": ["Support Retailers that Encourage Suppliers to be Sustainable", "business sustainability", "global challenges"]}
+{"question": "You catch yourself throwing out less food waste, are you...", "answers": ["On a roll", "Improving", "Trying, no progress", "Food waste? No clue"], "themes": ["Reduction of food waste", "Waste reduction", "climate change"]}
+{"question": "Energy-efficient appliances, in your shopping list?", "answers": ["Top of the list", "In the list", "Rarely makes it", "Never"], "themes": ["Energy-efficient appliances", "Energy efficiency", "climate change"]}
+{"question": "Bags at checkout: Are you reusing, recycling or refusing?", "answers": ["Reusing", "Recycling", "Refusing", "All about plastic"], "themes": ["Reusable shopping bags", "Recycling and composting", "climate change", "Waste reduction"]}
+{"question": "Going for groceries: Are you eating clean and green?", "answers": ["Totally", "Trying", "Seldom", "Not a priority"], "themes": ["Choice of healthy foods", "climate change", "Plant-based diet"]}
+{"question": "Packaging preferance: Less is more or more is necessary?", "answers": ["Less is more", "More is necessary", "Balanced", "Depends on the product"], "themes": ["Packaging", "Waste reduction", "Overconsumption avoidance", "climate change"]}
+{"question": "Seafood soiree: Sourced from sea or farm?", "answers": ["Sea", "Farm", "Wherever", "Vegan"], "themes": ["Seafood sourcing", "Ocean conservation", "Plant-based diet", "climate change"]}
+{"question": "Choose your shopping shield: Fairtrade or Free-range?", "answers": ["Fairtrade", "Free-range", "Cheapest", "Best quality"], "themes": ["Fairtrade products", "Ethical consumption", "business sustainability"]}
+{"question": "Sustainable living: are you on track?", "answers": ["Yes, totally", "Trying to be", "Not really", "Sustainable what?"], "themes": ["climate change", "Green living", "business sustainability"]}
+{"question": "Seasonal foods: Making a mark on your shopping list?", "answers": ["Definitely", "Sometimes", "Rarely", "What's seasonal?"], "themes": ["Seasonal food", "Sustainable agriculture", "Locally Sourced Food", "climate change"]}
+{"question": "Shopping: How high does environmental consciousness stack up?", "answers": ["Top of the pile", "Somewhere in between", "Down below", "Not in the stack"], "themes": ["Ethical consumption", "business sustainability", "Climate Change"]}
+{"question": "Fruit: Are you getting them bagged or are you picking them yourself?", "answers": ["Picking them", "Bagged", "Depends", "Neither, I don't eat fruits"], "themes": ["Packaging", "Locally Sourced Food", "Healthy choices"]}
+{"question": "Chocolates: Regular or fair-trade?", "answers": ["Fair-trade", "Regular", "Doesn't matter", "Don't eat chocolates"], "themes": ["Fairtrade products", "Ethical consumption", "business sustainability"]}
+{"question": "Shopping choices: convenience or green living?", "answers": ["Green living", "Convenience", "A balance", "Depends on the day"], "themes": ["Green living", "climate change", "business sustainability", "Overconsumption avoidance"]}
+{"question": "Cereals: How clean and green are they?", "answers": ["Clean & green", "Somewhat", "Not really", "Never checked"], "themes": ["Organic food", "climate change", "Choice of healthy foods"]}
+{"question": "Tiffins vs. takeaway containers: Your lunchbox love story?", "answers": ["Team Tiffin", "Team Takeaway", "Can swing either way", "No lunchboxes"], "themes": ["Avoiding disposable items", "Waste reduction", "Overconsumption avoidance", "climate change"]}
+{"question": "Sustainable living: Is it for you?", "answers": ["All in", "On the fence", "Stepping out", "What's sustainable living?"], "themes": ["climate change", "Green living", "business sustainability"]}
+{"question": "Choosing food: Does diversity ring a bell?", "answers": ["Loud and clear", "Kind of a jingle", "Barely a whisper", "Bell? What bell?"], "themes": ["Diversity of foods", "healthy choices", "Biodiversity"]}
+{"question": "Fighting food waste: You're on the frontlines or the sidelines?", "answers": ["Frontlines", "Sidelines", "Cheering squad", "What fight?"], "themes": ["Reduction of food waste", "Waste reduction", "climate change"]}
+{"question": "Switch it on: Is your energy appliance efficient or a hog?", "answers": ["Efficient", "A bit of a hog", "Total energy hog", "What's energy efficiency?"], "themes": ["Energy-efficient appliances", "Energy efficiency", "climate change"]}
+{"question": "Coffee break: Is it more fair-trade or free-for-all?", "answers": ["Fair-trade", "Free-for-all", "Depends on the day", "Don't do coffee"], "themes": ["Fairtrade products", "Ethical consumption", "business sustainability"]}
+{"question": "Got a healthy heartbeat for the earth too?", "answers": ["Yes, always", "On most days", "Hardly", "Earth what?"], "themes": ["Choice of healthy foods", "healthy choices", "climate change"]}
+{"question": "Meal mantra: Eat the rainbow or monochrome munchies?", "answers": ["Eat the rainbow", "Monochrome munchies", "Bit of both", "Eat what's available"], "themes": ["Diversity of foods", "healthy choices", "Biodiversity"]}
+{"question": "Bottles and cans: Do they meet their recycle bin destiny?", "answers": ["Always", "Sometimes", "Hardly ever", "Recycle bin what?"], "themes": ["Recycling and composting", "Waste reduction", "climate change"]}
+{"question": "Is it true that variety is the spice of your diet?", "answers": ["Absolutely", "Sometimes", "Seldom", "Not really"], "themes": ["Diversity of foods", "healthy choices", "Biodiversity"]}
+{"question": "Juices and snacks: Plastic-packaged or glass-guarded?", "answers": ["Glass-guarded", "Plastic-packaged", "Depends on availability", "DIY"], "themes": ["Packaging", "Waste reduction", "climate change"]}
+{"question": "Choosing seafood: Do you consider the source?", "answers": ["Always", "Sometimes", "Hardly ever", "Never"], "themes": ["Seafood sourcing", "climate change", "Ocean conservation"]}
+{"question": "Cleaning essentials: Packaged in plastic or paper?", "answers": ["Paper", "Plastic", "Don't mind", "Homemade solutions"], "themes": ["Packaging", "Waste reduction", "climate change", "Recycling and composting"]}
+{"question": "Agriculture: Supporting the conventional or the sustainable?", "answers": ["Sustainable", "Conventional", "Balanced", "Don't pay attention"], "themes": ["Support sustainable farming", "Sustainable agriculture", "climate change"]}
+{"question": "Supporting local businesses: A big yay or a mellow maybe?", "answers": ["Big yay", "Mellow maybe", "Depends on the business", "Local who?"], "themes": ["Locally Sourced Food", "Sustainable agriculture", "Climate Change", "business sustainability"]}
+{"question": "Choose your weapon... when you shop for produce?", "answers": ["Mesh reusable bags", "Plastic produce bags", "No bag needed", "Brown paper bag"], "themes": ["Packaging", "Sustainability"]}
+{"question": "Oooo! Fruit salads! Which do you go for?", "answers": ["DIY Freshly cut", "Grab pre-packaged", "Avoid, too much waste", "Seasonal mix"], "themes": ["Reducing Food Waste", "Seasonal food"]}
+{"question": "After grocery shopping, your counter is littered with...", "answers": ["A ton of plastic", "Some paper, some plastic", "Barely any waste", "Everything reusable"], "themes": ["Packaging", "Reducing Food Waste"]}
+{"question": "Energy bill be creeping, your go-to move is?", "answers": ["Swap for energy-efficient", "Tolerate it, don't have the cash", "Neglect and pay", "Google 'how to reduce energy consumption'"], "themes": ["Energy-efficient appliances", "climate change"]}
+{"question": "Barbeque with the fam, you serve...?", "answers": ["Meat on meat", "Plant-based and Meat", "Fish mostly", "Just plant-based goodies"], "themes": ["Reduced meat consumption", "Sustainable agriculture", "Plant-based diet"]}
+{"question": "Detergent aisle, what jumps in your cart?", "answers": ["Super concentrate!", "The usual, I guess", "I make my own", "Eco-brand"], "themes": ["Concentrated products", "Recyclable products"]}
+{"question": "Shower time, choose your superhero (razor)?", "answers": ["New disposable, everytime", "Reusable, I change the blade", "I have an electric", "I've joined a shave club"], "themes": ["Avoiding disposable items", "Waste reduction"]}
+{"question": "Snack-time! How fair can you trade?", "answers": ["Fairtrade or nothing!", "When it's in sight, why not?", "Didn't know there was such a thing", "Try, but hard to find"], "themes": ["Fairtrade products", "Ethical consumption"]}
+{"question": "One person's trash is another person's...", "answers": ["Erm, trash", "Source of inspiration", "Can be useful sometimes", "I actually buy used stuff"], "themes": ["Recyclable products", "Reducing Food Waste", "Overconsumption avoidance"]}
+{"question": "Thinking dinner, your mind drifts to?", "answers": ["What's easy and quick", "Something meaty", "Some sort of salad, I guess", "Fish from the nearby sea"], "themes": ["Locally Sourced Food", "Seafood sourcing", "Healthy choices"]}
+{"question": "Gettin' those muscles right, how diverse is your plate?", "answers": ["Diverse af", "Stick to what I know", "Somewhat diverse", "More diversity in my playlist tbh"], "themes": ["Diversity of foods", "Healthy choices"]}
+{"question": "Your coffee run... sustainability checked?", "answers": ["Always got my cup ready", "Never thought about it", "Depends, if I have it", "Started to recently"], "themes": ["Avoiding disposable items", "Recycling and composting", "Ethical consumption"]}
+{"question": "At the deli, you're like...", "answers": ["Throw everything in", "Love it, but hate the plastic", "Lean meats, no deli meats", "Meh, over it"], "themes": ["Packaging", "Reduced meat consumption"]}
+{"question": "Cruising in the aisles, looking for...", "answers": ["Sale", "Healthy & clean", "New flavors, love experimenting", "That good ole organic stuff"], "themes": ["Organic food", "Healthy choices"]}
+{"question": "Hangry! But sustainable. What do you grab?", "answers": ["Nutty, fruity bar", "A plastic-free snack", "Chips or chocolate", "Brought my snack"], "themes": ["Reducing Food Waste", "Packaging", "Healthy choices"]}
+{"question": "Which paper trail are you leaving?", "answers": ["Keep it digital", "Some things still need paper", "Guilty paper trail", "Aim for minimal use"], "themes": ["Packaging", "Deforestation", "Waste reduction"]}
+{"question": "Let's bake, choosing the perfect egg?", "answers": ["Farm-fresh for me", "Cheap and cheerful", "Any free-range", "Egg alternatives"], "themes": ["Sustainable farming", "Reduced meat consumption", "Organic food"]}
+{"question": "Which shade of green is your cleaning?", "answers": ["Evergreen, homemade recipes", "Mix, conventional and green", "Guilty, not green", "Buying green brands"], "themes": ["Sustainable products", "Recycling and composting", "Healthy choices"]}
+{"question": "Shopping habits forming, you're...", "answers": ["Bagless", "Bringing your own bag", "Using provided paper bag", "Can't give up on plastic bags"], "themes": ["Reusable shopping bags", "Packaging", "Waste reduction"]}
+{"question": "Dream vacay - remote island or tree-planting adventure?", "answers": ["Remote Island, please", "Tree-Planting sounds awesome!", "How about both?", "Prefer a city break"], "themes": ["Conservation of resources", "Deforestation", "Wildlife preservation", "Sustainability"]}
+{"question": "Where you off to - using that gas guzzler?", "answers": ["Sure am", "Nah, got my e-bike", "Public transport", "Good ole walk"], "themes": ["Eco-friendly transportation", "Carbon footprint reduction", "Renewable energy", "Conservation of resources"]}
+{"question": "How wild are your green fingers?", "answers": ["Super wild - love my garden", "Starting to develop", "Nah, concrete jungle here", "Planning on starting"], "themes": ["Green living", "Biodiversity", "Natural preservation", "Waste reduction"]}
+{"question": "Time to upgrade tech, what you thinking?", "answers": ["Latest and greatest!", "Re-sale platforms", "Make it last", "Hand-me-downs"], "themes": ["Sustainability", "Recyclable products", "Ethical consumption", "Waste reduction"]}
+{"question": "When a product's shouting it's eco, you're...", "answers": ["Sold!", "Intrigued", "Meh", "Let's read the label"], "themes": ["Recyclable products", "Transparent labelling", "Sustainability"]}
+{"question": "Renovation station! Which shade of green?", "answers": ["Light, trying out recycled materials", "Darker, trying solar panels", "Intense, trying eco-friendly insulation", "Let's stay the way we are"], "themes": ["Green building", "Renewable energy", "Energy efficiency"]}
+{"question": "Community clean-ups, your position is?", "answers": ["On it!", "As a participant", "Spectator", "Don't care for it"], "themes": ["Community cooperation", "Pollution reduction", "Sustainability"]}
+{"question": "Time to hydrate, but wait... Where's that water coming from?", "answers": ["Tap", "Bottled, please", "Reusable bottle", "Filtered"], "themes": ["Water conservation", "Packaging", "Reducing Food Waste"]}
+{"question": "DIY much? Got any eco-projects going on?", "answers": ["Recycle, reduce, reuse all the way", "Been thinking about a compost", "Pfft! Ain't got the time", "Planning on starting soon"], "themes": ["Waste reduction", "Recycling and composting", "Sustainability"]}
+{"question": "Online hauls, got any special instructions?", "answers": ["Plastic free", "Low packaging please", "Reuse if possible", "Don't care"], "themes": ["Packaging", "Waste reduction", "Overconsumption avoidance"]}
+{"question": "Feeling hot hot hot, what's your chill plan?", "answers": ["Crank the AC", "Electric fans all the way", "Wet washcloth, super cheap", "Just accept my fate"], "themes": ["Energy efficiency", "Climate change", "Sustainability"]}
+{"question": "Big wardrobe? What's the deal?", "answers": ["Minimal, just need my essentials", "Regular spring clean-ups", "Somewhere in the middle", "Can't resist a good deal"], "themes": ["Sustainable fashion", "Waste reduction", "Overconsumption avoidance"]}
+{"question": "Carbon footprint on your radar?", "answers": ["Sure is", "Try but get overwhelmed", "Never considered it", "Will check it out"], "themes": ["Carbon footprint reduction", "Climate change", "Global challenges"]}
+{"question": "Hunting for some adventure, pick your wildlife experience?", "answers": ["Canned hunting", "Bird watching", "Hiking", "Safari"], "themes": ["Wildlife preservation", "Conservation of resources", "Biodiversity"]}
+{"question": "Smelling the flowers, what's your go-to nature activity?", "answers": ["Beach cleanup", "Trail running", "Picnicking", "Just chilling"], "themes": ["Community cooperation", "Pollution reduction", "Biodiversity", "Natural preservation"]}
+{"question": "Recycle-bin looking full, now what?", "answers": ["Drive it down to recycling", "Compost if I can", "Wait for recycling day", "Honestly, it ends up in the trash"], "themes": ["Recycling and composting", "Waste reduction", "Sustainability"]}
+{"question": "Wine and dine, local or imported?", "answers": ["Love local", "Imported only", "Doesn't matter", "Switch between both"], "themes": ["Locally Sourced Food", "Sustainable agriculture", "Support sustainable farming"]}
+{"question": "Paper or plastic, you say...?", "answers": ["Neither, brought my own", "Plastic", "Paper", "Don't need a bag"], "themes": ["Reusable shopping bags", "Packaging", "Sustainability", "Waste reduction"]}
+{"question": "Midday cravings, raiding the vending machine... Your pick?", "answers": ["Something healthy, please", "Chips and candy", "Avoid them usually", "Snack from my own stash"], "themes": ["Healthy choices", "Overconsumption avoidance"]}
+{"question": "Waving goodbye to a favorite gadget, what do you do?", "answers": ["Sell it online", "Into the junk drawer", "Pass it on to a friend", "Recycling center"], "themes": ["Recycling and composting", "Overconsumption avoidance"]}
+{"question": "Catch of the day! What you bringing in?", "answers": ["Local Seafood, yum!", "Imported catch only", "More of a plant-person", "Depends on what I feel like"], "themes": ["Seafood sourcing", "Locally Sourced Food"]}
+{"question": "Green peace on your plate. What's for dinner?", "answers": ["Plant-based and colourful", "Hearty Meat dish", "Fish and Veggies", "Eggs and toast"], "themes": ["Plant-based diet", "Healthy choices"]}
+{"question": "Household waste - recycle it or toss it?", "answers": ["Recycle when possible", "Usually goes in the trash", "I have separate bins", "Trying to go Zero waste"], "themes": ["Waste reduction", "Recycling and composting"]}
+{"question": "DIY cleaners vs Store-bought. Thoughts?", "answers": ["Mix it up in my kitchen", "Convenient store-bought", "DIY for some, buy others", "Planning to try DIY"], "themes": ["Innovative Production Methods", "Healthy choices"]}
+{"question": "Wanderlust? Pick your ride to the wild side.", "answers": ["My fuel-guzzler", "Rent a hybrid", "Eco tour, baby", "Let's just bike it"], "themes": ["Eco-friendly transportation", "Carbon footprint reduction", "Renewable energy"]}
+{"question": "Pack a punch! What are you sippin' on?", "answers": ["Straight from the tap", "Buy bottled water", "Got my own reusable bottle", "Filtered at home"], "themes": ["Water conservation", "Packaging", "Reducing Food Waste"]}
+{"question": "Fast Fashion. Your guilty pleasure or Nah?", "answers": ["Sometimes", "Nah, I buy quality", "Thrift store finds", "Try to avoid but slip sometimes"], "themes": ["Sustainable fashion", "Ethical consumption", "Overconsumption avoidance"]}
+{"question": "Lights out! What you lighting up?", "answers": ["Old school bulbs", "Energy saving LED", "Whatever's at the store", "Light of the sun"], "themes": ["Energy-efficient appliances", "Renewable energy", "Climate change"]}
+{"question": "Cool and fresh, with a crunch. Bagged lettuce?", "answers": ["Yeah, super easy", "Never! I wash my own", "Sometimes", "Lettuce... Nah"], "themes": ["Packaging", "Sustainability", "Locally Sourced Food"]}
+{"question": "Yum, Avocado Toast! Source of your green goodness?", "answers": ["Whichever's cheapest", "Always local", "Depends on the season", "I bring it from abroad"], "themes": ["Locally Sourced Food", "Seasonal food", "Organic food"]}
+{"question": "Summer BBQ. What are you grilling?", "answers": ["A mix, got my veggies and meat", "Lots of plant-based goodies", "Fish on the grill", "Good ole' fashioned BBQ meat"], "themes": ["Reduced meat consumption", "Sustainable agriculture", "Plant-based diet"]}
+{"question": "Sparks flying! Choosing your energy provider, you consider...", "answers": ["Cheapest option", "Best customer service", "Has a renewable energy option", "Depends on their plan"], "themes": ["Renewable energy", "Sustainable agriculture", "Climate change"]}
+{"question": "Reading Labels. Fun time or yawn time?", "answers": ["Definitely, Fun", "Who's got the time?", "If I remember", "Now and then"], "themes": ["Transparent labelling", "Organic products", "Healthy choices"]}
+{"question": "Day's ending, moon's out. Lights on or off?", "answers": ["Only when I need", "Always on", "I prefer candlelight", "Have automatic timers"], "themes": ["Energy-efficient appliances", "Conservation of resources", "Renewable energy"]}
+{"question": "Browsing Aisle 6, what sneaks in?", "answers": ["Conventional products", "Certified fair-trade", "Has to be organic", "All of the above"], "themes": ["Fairtrade products", "Organic products", "Healthy choices"]}
+{"question": "Food spoilage? Say no to...", "answers": ["Anything packaged", "Take out, Eat out", "Home cooking for the win", "Fruits, I always forget them"], "themes": ["Reducing Food Waste", "Packaging", "Healthy choices"]}
+{"question": "Eco Friendly Gadget shopping, Top or Flop?", "answers": ["Must have", "Tempting but too costly", "Overhyped", "Not heard much"], "themes": ["Energy-efficient appliances", "Overconsumption avoidance", "Ethical consumption"]}
+{"question": "Yoga on the Beach, leave only footprints... and?", "answers": ["My yoga mat", "Plastic water bottle", "Used to, not anymore", "I always clean up"], "themes": ["Pollution reduction", "Ocean conservation", "Healthy choices"]}
+{"question": "Shopping list - checking it once or twice for...?", "answers": ["Best price", "Fair trade, Organic", "Anything local", "Just grabbing what I see"], "themes": ["Fair trade", "Organic products", "Locally Sourced Food"]}
+{"question": "Building that dream home, Green or Conventional?", "answers": ["Totally Green", "Depends on the price", "Never considered", "Conventional for now"], "themes": ["Green building", "Energy efficiency", "Renewable energy"]}
+{"question": "Saving some moolah, love those hand-me-downs?", "answers": ["Always open to them", "Never, want the new stuff", "Depends on what it is", "Giving, not receiving"], "themes": ["Overconsumption avoidance", "Ethical consumption", "Sustainability"]}
+{"question": "Love for seafood, making a sustainable choice?", "answers": ["As long as it tastes good", "Wild-caught, no farming", "Specific labels", "Not into Seafood"], "themes": ["Seafood sourcing", "Sustainable farming", "Healthy choices"]}
+{"question": "Weekend errands - Bike, Walk or Drive?", "answers": ["Drive, it's faster", "Walk, need the steps", "Cycle, enjoy the ride", "Depends on the errand"], "themes": ["Eco-friendly transportation", "Carbon footprint reduction", "Healthy choices"]}
+{"question": "Impulse buying. Resist or Indulge?", "answers": ["Buy Now, Think later", "Think first, then Buy", "A few indulgences", "Buy only if on sale"], "themes": ["Overconsumption avoidance", "Sustainable choices", "Ethical consumption"]}
+{"question": "Cooling off, cranking that AC or embracing the breeze?", "answers": ["Can't live without AC", "Fan life for me", "Open windows and natural breeze", "Mix it up"], "themes": ["Energy efficiency", "Climate change", "Sustainability"]}
+{"question": "New recipe, Where's that cooking oil from?", "answers": ["Wherever", "Specific brand, always", "Local, cold-pressed", "Whatever's on sale"], "themes": ["Locally Sourced Food", "Sustainable farming", "Healthy choices"]}
+{"question": "Leafy Greens in that grocery basket... organic?", "answers": ["Always", "Sometimes", "Rarely", "Who cares?"], "themes": ["Organic food", "Healthy choices", "Sustainable farming"]}
+{"question": "Holiday mood, Christmas Tree, Real or Fake?", "answers": ["Real, love the smell", "Fake, use it every year", "A potted one, decorate it all year", "Don't do trees"], "themes": ["Deforestation", "Overconsumption avoidance", "Waste reduction"]}
+{"question": "Phone Upgrade - Exciting times or Meh?", "answers": ["Can't wait", "Nervous about the switch", "Hate the waste", "Not a tech freak"], "themes": ["Recycling and composting", "Overconsumption avoidance", "Ethical consumption"]}
+{"question": "Doing Laundry - Always full loads?", "answers": ["Yep, full load always", "Sometimes half, sometimes full", "Don't pay attention", "Laundry service, please"], "themes": ["Water conservation", "Sustainability", "Waste reduction"]}
+{"question": "Getting that Bread! Pre-Packaged or Bakery Fresh?", "answers": ["Love my fresh bread", "Whatever's convenient", "Try for fresh, sometimes packaged", "Bread machine at home"], "themes": ["Packaging", "Sustainability", "Healthy choices"]}
+{"question": "Plant Lover or Green Wrecker?", "answers": ["Got a mini jungle", "A plant or two", "Just love the wood, you know", "Too busy for that"], "themes": ["Biodiversity", "Conservation of resources", "Sustainability"]}
+{"question": "Weekend Projects, Get Set...DIY or Buy?", "answers": ["Buy, who's got the time?", "DIY all the way", "Love planning, hard with the execution", "A bit of both"], "themes": ["Innovative Production Methods", "Sustainability", "Recyclable products"]}
+{"question": "Workout Style, Nature walk or Gym buff?", "answers": ["Love the Great Outdoors", "Gym membership for the win", "Workout at home", "Why workout, just chill"], "themes": ["Healthy choices", "Renewable energy", "Green living"]}
+{"question": "Lunchbox Choices - Pre-Packed or Homemade?", "answers": ["Store-bought, no fuss", "Homemade with love", "Takeout and delivery", "Pack yesterday's dinner leftovers"], "themes": ["Reducing Food Waste", "Packaging", "Healthy choices"]}
+{"question": "New Restaurant in town, picky or spontaneous?", "answers": ["Farm to Table, for sure", "Love trying new cuisine", "Avoid, Stick to my favorites", "Menu please"], "themes": ["Locally Sourced Food", "Sustainable farming", "Healthy choices"]}
+{"question": "Work break, Refill or Buy that drink?", "answers": ["Always Refill", "Buy new, more convenient", "Bring from home", "Not much of a drinker"], "themes": ["Packaging", "Reducing Food Waste", "Water conservation"]}
+{"question": "Big Family Dinner, Reducing waste, yes?", "answers": ["Use washable dishes", "Use disposables", "Serve in cooking pots", "Host at a restaurant"], "themes": ["Reducing Food Waste", "Avoiding disposable items", "Waste reduction"]}
+{"question": "Night Out, Remember that reusable cup?", "answers": ["Yep, never leave home without it", "Always forget", "Just buy a new one", "I have a special night out cup"], "themes": ["Avoiding disposable items", "Waste reduction", "Sustainability"]}
+{"question": "Farming Choices - Support local or big chains?", "answers": ["Love my farmer's market", "Can't resist those sales", "Have a mix of both", "Gotta have it all"], "themes": ["Locally Sourced Food", "Sustainable agriculture", "Support sustainable farming"]}
+{"question": "Loving nature - Got that backyard compost going?", "answers": ["Yes, love my compost pile", "Started one recently", "Planning on it", "Nope, maybe later"], "themes": ["Reducing Food Waste", "Recycling and composting", "Sustainable farming"]}
+{"question": "Order up! Seafood selection?", "answers": ["Anything goes!", "Wild caught only", "Avoid seafood", "Locally sourced"], "themes": ["Seafood sourcing", "Sustainable farming", "Locally Sourced Food"]}
+{"question": "Movie Night Snacks, Do we have a...", "answers": ["A huge bucket of popcorn", "Some fruits", "I baked cookies", "A whole feast"], "themes": ["Healthy choices", "Locally Sourced Food", "Overconsumption avoidance"]}
+{"question": "Breakfast Ritual - Packaged Cereal or DIY Smoothie?", "answers": ["Got my Blender ready", "Love my cereal", "Both, depends on mood", "Neither, eggs for me"], "themes": ["Packaging", "Healthy choices", "Locally Sourced Food"]}
+{"question": "Game Night, getting your Snack Attack, Choose...", "answers": ["Store bought, pre-packaged snacks", "Baking some goodies", "Deliver me a Pizza", "Homemade, delicious snacks"], "themes": ["Packaging", "Reducing Food Waste", "Healthy choices"]}
+{"question": "Sunday Hikes, hydration is key. Where's your water?", "answers": ["Refill from the river", "Bought a bottled water", "Brought from home", "Fancy a coconut water"], "themes": ["Water conservation", "Packaging", "Reducing Food Waste"]}
+{"question": "Impulse buying, get a good deal or being deceived?", "answers": ["Avoid impulse buys", "Can't resist a deal", "Calculate and buy", "It's usually worth it"], "themes": ["Overconsumption avoidance", "Sustainable choices", "Ethical consumption"]}
+{"question": "Saving trees, prefer Ebooks or Traditional?", "answers": ["Love the smell of a new book", "Ebooks all the way", "Try the library", "Just not into books"], "themes": ["Deforestation", "Overconsumption avoidance", "Waste reduction"]}
+{"question": "Outdoor trips - Trash and Litter... leave behind?", "answers": ["I leave it clean", "As long as it's biodegradable", "Can't carry it back", "Didn't know it was a thing"], "themes": ["Pollution reduction", "Conservation of resources", "Healthy choices"]}
+{"question": "Cold Winter Days, time to crank up that...", "answers": ["Cozy up by the Fireplace", "Central Heating", "Pile on the Blankets", "Stay Active, Keep moving"], "themes": ["Energy-efficient appliances", "Carbon footprint reduction", "Climate change"]}
+{"question": "Gift Giving - Handmade with love or Store-bought?", "answers": ["DIY presents are the best", "Prefer to buy them", "Gift cards, to be safe", "Love making them, hard to find the time"], "themes": ["Recycling and composting", "Overconsumption avoidance", "Ethical consumption"]}
+{"question": "Visiting the Farmer's Market. Grab some...?", "answers": ["Seasonal Veggies", "Organic Honey", "Free Range Eggs", "A bit of everything"], "themes": ["Locally Sourced Food", "Seasonal food", "Sustainable farming"]}
+{"question": "Meal prepping, reducing food waste?", "answers": ["Weekly Ritual", "Plan for 2-3 days", "Cook daily, Love Fresh", "More of a takeaway person"], "themes": ["Reducing Food Waste", "Healthy choices", "Overconsumption avoidance"]}
+{"question": "Fresh Juice Time - Extract or Blender?", "answers": ["Got to have the fiber, blend", "Hate pulp, Extract please", "Bottled, quick and easy", "Fruits, who needs juice?"], "themes": ["Waste reduction", "Healthy choices", "Overconsumption avoidance"]}
+{"question": "Snacking Time, Bag of Chips or Veggies?", "answers": ["Veggie Sticks", "Packaged Chips", "Make my own chips", "Popcorn please"], "themes": ["Healthy choices", "Overconsumption avoidance", "Packaging"]}
+{"question": "Working Late - Quick Microwave dinner or delivery?", "answers": ["Frozen, microwave ready meal", "Food Delivery please", "Cereal for Dinner", "Cook, Always fresh"], "themes": ["Packaging", "Reducing Food Waste", "Healthy choices"]}
+{"question": "Dining Out - Remembered to BYOC (Bring Your Own Container)?", "answers": ["Always", "I try to", "Forgot again", "What's that?"], "themes": ["Reducing Food Waste", "Avoiding disposable items", "Sustainability"]}
+{"question": "Gettin' Dirty - Choose your Cleaning Wipe?", "answers": ["Convenient, disposable ones", "Washable, reusable cloth", "Both, depends on the task", "Try to avoid them"], "themes": ["Avoiding disposable items", "Waste reduction", "Sustainability"]}
+{"question": "Cooking Class - Leaning Vegan or Gourmet?", "answers": ["Trying Plant-based", "Love Gourmet", "Whichever is quicker", "Sweets and Baking"], "themes": ["Plant-based diet", "Healthy choices", "Sustainable farming"]}
+{"question": "Hot and Cold, to Dishwasher or not to?", "answers": ["Every single time", "Do them by hand", "If I can fit a lot", "Can't stand dishes, eat out"], "themes": ["Water conservation", "Packaging", "Waste reduction"]}
+{"question": "Up in the Air - Window Seat, Fancy Upgrade?", "answers": ["Economy all the way", "Love a good upgrade", "Depends on the duration", "Business travel, company pays"], "themes": ["Carbon footprint reduction", "Climate change", "Global challenges"]}
+{"question": "New Clothing, Checked the labels?", "answers": ["Love the feel, don't care about label", "Material, Check. Origin, Check", "Sustainability Labels only", "Sales price, that's it"], "themes": ["Transparent labelling", "Fair trade", "Sustainable fashion"]}
+{"question": "Thinking Breakfast - Bowl of Fruits, Imported?", "answers": ["Local and seasonal", "Love Exotic fruits", "Anything on sale", "Stick to Cereals"], "themes": ["Locally Sourced Food", "Seasonal food", "Sustainability"]}
+{"question": "Feeling Sick, rushing to the Pharmacy or Kitchen?", "answers": ["Got my home remedies", "Pharmacy for sure", "Check online, then decide", "Wait it out"], "themes": ["Healthy choices", "Locally Sourced Food", "Sustainability"]}
+{"question": "Weekend Cleaning, Choosing your superhero (Cleaning supplies)?", "answers": ["Buy the strong stuff", "Green brands", "DIY my own", "Get the cleaners in"], "themes": ["Waste reduction", "Packaging", "Overconsumption avoidance"]}
+{"question": "House party, Got the drinks... Plastic or Glass?", "answers": ["Disposables, for the win", "Got enough glass for everyone", "Depends on the number", "Ask guests to bring theirs"], "themes": ["Avoiding disposable items", "Packaging", "Waste reduction"]}
+{"question": "Eating dinner tonight you're like...", "answers": ["Big steak fan", "Veggies only, bruh", "Chicken? Always!", "I flex both"], "themes": ["Reduced Meat Consumption", "climate change"]}
+{"question": "Fave way to get your clean on is?", "answers": ["Spray n' wipe, baby", "Microfiber cloth vibes", "Wipes all the way", "Does magic exist?"], "themes": ["Avoiding Disposable Items", "Waste reduction"]}
+{"question": "Doing laundry and you go for?", "answers": ["Old school soap", "Compact eco-powders", "Liquid detergent FTW", "Mom's choice"], "themes": ["Concentrated Products", "Overconsumption avoidance"]}
+{"question": "Spotting a rad t-shirt. What’s on the label?", "answers": ["Cotton, plain", "Organic cotton only", "Recycled fibers", "Eco what now?"], "themes": ["Sustainably-sourced materials", "Business sustainability"]}
+{"question": "Hunting for new kicks. The key thing is?", "answers": ["Must be brand-name", "Eco-friendly materials only", "Local, artisan-made", "Price. Period."], "themes": ["Sustainably-sourced materials", "Local sourcing"]}
+{"question": "Wake up call. Time to turn the lights on, you pick?", "answers": ["Regular light bulbs", "Energy savers, please", "Whatev’s on hand", "Natural light's my jam"], "themes": ["Energy Efficiency", "Green living"]}
+{"question": "Munching on chips. The packaging says?", "answers": ["Plastic, obviously", "Biodegradable is best", "Who reads labels?", "Bag? I bring my own"], "themes": ["Packaging", "Waste reduction"]}
+{"question": "Your Java Joe fix comes from where?", "answers": ["Any old beans", "Fairtrade, duh", "Organic & local", "Quit coffee, tea only"], "themes": ["Fair Trade", "Locally Sourced Food"]}
+{"question": "Makin’ guac, avocados come from?", "answers": ["Supermarket stack", "Local farmer's market", "Eh, the usual", "Canned, less fuss"], "themes": ["Locally Sourced Food", "Carbon footprint reduction"]}
+{"question": "Meat substitute for dinner is?", "answers": ["Tofu FTW", "Lentils, hearty & healthy", "Beans, musical fruit", "Not in my kitchen"], "themes": ["Reduced Meat Consumption", "Plant-based diet"]}
+{"question": "Fruit and veg: Bagged or naked?", "answers": ["Naked, as nature made ‘em", "Bagged, less hassle", "Mix ‘em up", "Don’t do fruit & veg"], "themes": ["Packaging", "Natural preservation"]}
+{"question": "When shopping, you rock a...", "answers": ["Plastic bag stash", "Reusable totes", "Paper bags", "What's a bag?"], "themes": ["Reusable Shopping Bags", "Pollution reduction"]}
+{"question": "Doing a grocery run. Your cart is full of?", "answers": ["Anything tasty", "Locally sourced goodies", "Mix, depending on price", "Take-out menu?"], "themes": ["Locally Sourced Food", "Ethical consumption"]}
+{"question": "Your perfect weekend starts with?", "answers": ["Local farmers' market", "Supermarket run", "Fast food delivery", "Who plans that far ahead?"], "themes": ["Locally Sourced Food", "Community cooperation"]}
+{"question": "The power you use at home is mostly...", "answers": ["Coal, typical", "Renewable energy", "Mix, varies", "Dunno, ask the parents"], "themes": ["Renewable energy", "Climate change"]}
+{"question": "In your bathroom, the tissue roll is...", "answers": ["Ordinary one", "Recycled paper, baby", "Cloth handkerchiefs", "Who checks?"], "themes": ["Recyclable Products", "Deforestation"]}
+{"question": "You need to pick a cleaning product. What's your move?", "answers": ["Best price", "Concentrated, eco-friendly", "Best reviews", "One with a funny ad"], "themes": ["Concentrated Products", "Water conservation"]}
+{"question": "Choose your weapon: wiping up a spill?", "answers": ["Single-use paper towels", "Old rags", "Microfiber cloth", "Magically disappear?"], "themes": ["Avoiding Disposable Items", "Waste reduction"]}
+{"question": "Going out shopping. What’s in your hand?", "answers": ["Plastic bags", "Own jute bags", "Grocery carts, always", "Pockets. It's a small list"], "themes": ["Reusable Shopping Bags", "Pollution reduction"]}
+{"question": "You see a cool lamp. What makes it glow?", "answers": ["Regular bulbs", "Energy saving LEDs", "Fairy dust?", "No idea, just liked the shape"], "themes": ["Energy-efficient Appliances", "Green living"]}
+{"question": "Your daily ride is?", "answers": ["Gas-guzzler", "Public transport pro", "Bike or walk", "Hitch a ride, no car"], "themes": ["Eco-friendly transportation", "Carbon footprint reduction"]}
+{"question": "About to dive into a chocolate bar. It's...?", "answers": ["Any, I'm not picky", "Fairtrade only", "Organic & vegan", "Haven’t had one in ages"], "themes": ["Fair Trade", "Plant-based diet"]}
+{"question": "Making dinner. Ingredients are mostly...", "answers": ["Supermarket’s finest", "Farmer's market haul", "Mix of both", "Ready-made meal, sorry"], "themes": ["Locally Sourced Food", "Sustainable agriculture"]}
+{"question": "Yummy apples. How’d you get them?", "answers": ["Pre-packed at store", "Loose at farmer’s market", "Doesn’t matter, I wash 'em", "Apple? Nah, I'm a banana person"], "themes": ["Packaging", "Locally Sourced Food"]}
+{"question": "Dinner leftovers. Where do they go?", "answers": ["Trash can", "Compost bin", "Dog's dinner", "What leftovers?"], "themes": ["Reducing Food Waste", "Recycling and composting"]}
+{"question": "At the check-out. What's your grocery bill?", "answers": ["Doesn’t matter, not paying", "Definitely pricey", "Reasonable, budgeted", "Super cheap"], "themes": ["Ethical consumption", "Overconsumption avoidance"]}
+{"question": "Where's the first place you hit in the grocery store?", "answers": ["Organic section", "Locally sourced products", "Packaged meals aisle", "Meat section"], "themes": ["Organic food", "Locally Sourced Food", "Packaging", "Reduced meat consumption"]}
+{"question": "Your friend forgot to bring bags, you...", "answers": ["Offer one of yours", "Say 'there's always next time'", "Pretend not to notice", "Aren't surprised"], "themes": ["Reusable shopping bags", "Community cooperation", "Overconsumption avoidance"]}
+{"question": "On the hunt for snacks, you’re grabbing...", "answers": ["Loose nuts and fruits", "Packaged energy bars", "Home made munchies", "Bags of chips"], "themes": ["Packaging", "Healthy choices", "Waste reduction", "Overconsumption avoidance"]}
+{"question": "Let's spill some tea, how green are your appliances?", "answers": ["Very", "A bit", "Green? More like gray", "Never really thought"], "themes": ["Energy-efficient appliances", "Green living", "Climate change", "Energy efficiency"]}
+{"question": "Pasta for dinner again. You're thinking...", "answers": ["Gotta stop wasting food", "Doesn't matter, tastes great", "Should try local grains", "Leftovers for tomorrow"], "themes": ["Reducing Food Waste", "Locally Sourced Food", "Sustainable agriculture", "Overconsumption avoidance"]}
+{"question": "Checkout counter asks paper or plastic, you're like...", "answers": ["Neither, brought my own", "Plastic's fine", "Oh no, I forgot mine", "What about cloth bags?"], "themes": ["Reusable shopping bags", "Packaging", "Waste reduction", "Overconsumption avoidance"]}
+{"question": "You see two juices. One local, one organic. You...", "answers": ["Buy local, save miles", "Grab the organic one", "Taste trumps everything", "Why not both?"], "themes": ["Locally Sourced Food", "Organic food", "Carbon footprint reduction", "Sustainable agriculture"]}
+{"question": "Friends want a BBQ. You're suggesting...", "answers": ["A salad potluck", "Chicken over beef", "Fish from local waters", "I'm more of a pizza person"], "themes": ["Reduced meat consumption", "Locally Sourced Food", "Healthy choices", "Community cooperation"]}
+{"question": "Favorite way to mop the floor?", "answers": ["Old t-shirt turned mop", "Use concentrated cleaner", "Water, and lots of it", "Single-use wet wipes"], "themes": ["Concentrated products", "Sustainably-sourced materials", "Water conservation", "Avoiding disposable items"]}
+{"question": "On cleaning day, you're ready with...", "answers": ["Eco-friendly products", "Homemade solutions", "Multipurpose cleaner", "Disposable wipes"], "themes": ["Concentrated products", "Reducing Food Waste", "Green living", "Avoiding disposable items"]}
+{"question": "Someone's trash is your...", "answers": ["Next DIY project", "Way to recycle", "None of my business", "Problem with waste"], "themes": ["Recyclable products", "Green living", "Community cooperation", "Waste reduction"]}
+{"question": "Grocery store is out of local produce, you...", "answers": ["Get it anyway", "Choose organic", "Wait until restocked", "Think of another meal"], "themes": ["Locally Sourced Food", "Organic food", "Waste reduction", "Overconsumption avoidance"]}
+{"question": "Buying some threads. Do you...", "answers": ["Check for Fairtrade label", "Pick what looks good", "Hunt for organic materials", "Buy from thrift stores"], "themes": ["Fairtrade products", "Organic products", "Ethical consumption", "Overconsumption avoidance"]}
+{"question": "In the canned food section, you prefer...", "answers": ["Fresh veggies", "Recyclable cans", "Cheaper options", "Cans are a no for me"], "themes": ["Packaging", "Recyclable products", "Healthy choices", "Waste reduction"]}
+{"question": "In the meat aisle, you're thinking...", "answers": ["No meat for me", "Let's try a new recipe", "Maybe just for today", "All looks tasty"], "themes": ["Reduced meat consumption", "Healthy choices", "Ethical consumption", "Overconsumption avoidance"]}
+{"question": "The soap bottle is empty, do you...", "answers": ["Refill from a larger one", "Buy a new bottle", "Swap to soap bars", "Switch to another brand"], "themes": ["Packaging", "Concentrated products", "Waste reduction", "Overconsumption avoidance"]}
+{"question": "You run out of toothpaste, you...", "answers": ["Refill", "Reuse the old tube", "Bin and forget", "What about tooth powder?"], "themes": ["Concentrated products", "Recyclable products", "Waste reduction", "Overconsumption avoidance"]}
+{"question": "Coffee on the go. You...", "answers": ["Refuse the disposable cup", "Grab your reusable mug", "Just take the cup", "Who needs coffee?"], "themes": ["Avoiding disposable items", "Reusable shopping bags", "Waste reduction", "Overconsumption avoidance"]}
+{"question": "You’re on snack aisle. You...", "answers": ["Aim for loose snacks", "Grab a few packaged ones", "Bulk bin heaven", "Don't eat snacks"], "themes": ["Packaging", "Waste reduction", "Healthy choices", "Overconsumption avoidance"]}
+{"question": "Coffee machine died, you...", "answers": ["Fix it yourself", "Ask friend for spare", "To the repair shop", "Buy a new one"], "themes": ["Energy-efficient appliances", "Green living", "Community cooperation", "Overconsumption avoidance"]}
+{"question": "Your dinner is a, um, biggie plant burger? Just nod yes or no.", "answers": ["Nod yes", "Nod no", "Maybe, sometimes", "Prefer the real deal"], "themes": ["Plant-based diet", "Reducing meat consumption"]}
+{"question": "When scooping ice cream, do you heat your scoop for a 'clean' experience?", "answers": ["Every. Time.", "Nah, just dig in", "Sometimes", "Not an ice cream fan"], "themes": ["Energy efficiency", "Overconsumption avoidance"]}
+{"question": "Rolling up at the grocery store, you nab...", "answers": ["A reusable bag", "A plastic bag", "A mix of both", "Go cart to car"], "themes": ["Reusable shopping bags", "Packaging", "Overconsumption avoidance"]}
+{"question": "Catching a whiff of fresh oranges, are you team loose fruits or pre-bagged?", "answers": ["Loose fruits FTW", "Pre-bagged, pls", "Orange you joking? Not into fruits", "Both work for me"], "themes": ["Packaging", "Locally Sourced Food"]}
+{"question": "Your 'Fri-yay' takeout containers, do you...", "answers": ["Recycle 'em", "Reuse 'em", "Trash 'em", "Compost 'em"], "themes": ["Packaging", "Recycling and composting", "Waste reduction"]}
+{"question": "Cool party trick: Using organic paper plates or washing up afterwards?", "answers": ["Organic plates, pls", "Washing up FTW", "Mix it up", "Depends on the party"], "themes": ["Organic products", "Waste reduction", "Avoiding disposable items"]}
+{"question": "Busting myths: Is your mythic coffee cup actually recyclable?", "answers": ["Yup, recyclable", "Nope, not recyclable", "Partially recyclable", "Who knows?"], "themes": ["Packaging", "Recyclable products", "Waste reduction"]}
+{"question": "Spraying on some perfume. Is it from a reusable or disposable bottle?", "answers": ["Reusable bottle", "Disposable bottle", "Refillable bottle", "No perfume here"], "themes": ["Packaging", "Avoiding disposable items", "Recyclable products"]}
+{"question": "Fairtrade or non-fairtrade coffee? How's your brew?", "answers": ["Always fairtrade", "Sometimes fairtrade", "Non-fairtrade", "Not a coffee drinker"], "themes": ["Fair trade", "Ethical consumption"]}
+{"question": "How eco are your cleaning supplies?", "answers": ["Green clean only", "Green clean, mostly", "Clean's clean, mate", "Mix it up"], "themes": ["Organic products", "Overconsumption avoidance", "Conservation of resources"]}
+{"question": "Your toothpaste tube, is it...?", "answers": ["Recyclable", "Non-recyclable", "Who looks at that?", "I use toothpaste tabs"], "themes": ["Packaging", "Recyclable products"]}
+{"question": "Rocking the organic veggies or more the GMO-kind?", "answers": ["Only organic, dude", "Sometimes organic", "Any veg is good veg", "I prefer GMOs"], "themes": ["Organic food", "Healthy choices"]}
+{"question": "Are your summer shorts organic or synthetically awesome?", "answers": ["Organic cotton", "Any fabric goes", "Prefer synthetic", "Why does it matter?"], "themes": ["Organic products", "Fair trade", "Sustainably-sourced materials"]}
+{"question": "How often you are making use of that shiny reusable water bottle?", "answers": ["Every single day", "Sometimes, when I remember", "Nope, prefer bottled water", "Don't really carry water"], "themes": ["Packaging", "Water conservation", "Avoiding disposable items"]}
+{"question": "Leaning more towards eco-friendly transportation? Yes, no, maybe?", "answers": ["Yes, always", "No, I like my gas guzzler", "Sometimes", "Public transportation ftw"], "themes": ["Eco-friendly transportation", "Carbon footprint reduction", "Conservation of resources"]}
+{"question": "Your weekend ride is more...?", "answers": ["E-scooter", "Bike", "Walk, baby!", "Car"], "themes": ["Eco-friendly transportation", "Healthy choices", "Conservation of resources"]}
+{"question": "Purchasing that hot new device, are you team pre-loved or brand spanking new?", "answers": ["Pre-loved all the way", "New only", "Both, depending on the item", "Not into devices"], "themes": ["Overconsumption avoidance", "Ethical consumption", "Carbon footprint reduction"]}
+{"question": "Friday-night pizza - more the store-bought frozen type or pizza delivery?", "answers": ["Frozen all the way", "Pizza delivery please", "I make my own pizza", "Pizza? Nah."], "themes": ["Reducing Food Waste", "Energy-efficient appliances", "Healthy choices"]}
+{"question": "Bagging your takeout, is it more reusable bag or disposable plastic?", "answers": ["Reusable bag", "Disposable plastic", "Mix it up", "I dine in"], "themes": ["Reusable shopping bags", "Packaging", "Avoiding disposable items"]}
+{"question": "Your crib's energy vibes come from?", "answers": ["Renewable sources", "Standard power grid", "I'm off the grid", "I dunno, it just works"], "themes": ["Renewable energy", "Energy efficiency", "Green living"]}
+{"question": "Whipping up a mean salad - fresh from the farmer's market or supermarket?", "answers": ["Farmer's market FTW", "Supermarket convenience", "Either works for me", "Salad? Ew."], "themes": ["Local sourcing", "Healthy choices"]}
+{"question": "Your dishwashing jam is?", "answers": ["Water-saving method", "Fill and wash", "Depends on the load", "Takeout, please"], "themes": ["Water conservation", "Conservation of resources", "Energy efficiency"]}
+{"question": "Your t-shirt vibes are more?", "answers": ["Vintage", "Brand new", "Boutique upcycled", "Wear till it rips"], "themes": ["Overconsumption avoidance", "Ethical consumption", "Sustainably-sourced materials"]}
+{"question": "Quick scan of your grocery cart, is it plastic-packed or more naked goods?", "answers": ["Plastic-packed", "Naked goods", "Mixture", "I grocery shop online"], "themes": ["Packaging", "Reducing Food Waste", "Healthy choices"]}
+{"question": "Your fruits and veggies, how 'clean' are they?", "answers": ["Organic all the way", "Depends on the item", "What even is 'organic'?", "I get mine from the local farm"], "themes": ["Organic food", "Local sourcing", "Sustainable agriculture"]}
+{"question": "Cruising in the city - you peddle or prefer being chauffeured?", "answers": ["I pedal", "Chauffeured, please", "Sometimes cycle, sometimes drive", "I walk"], "themes": ["Eco-friendly transportation", "Healthy choices", "Carbon footprint reduction"]}
+{"question": "Your cuppa joe is a fair trade or commercial brew?", "answers": ["Fairtrade all day", "Commercial brew", "It's a mix", "I prefer tea"], "themes": ["Fair trade", "Ethical consumption", "Healthy choices"]}
+{"question": "Caught the DIY bug yet? Made your own cleaning products?", "answers": ["All the time", "Once in a while", "Not yet, but interested", "Nah, store-bought for me"], "themes": ["Organic products", "Overconsumption avoidance", "Conservation of resources"]}
+{"question": "Shampoo: bar or bottle?", "answers": ["Bar", "Bottle", "Either/Or", "I don't use shampoo"], "themes": ["Avoiding disposable items", "Packaging", "Conservation of resources"]}
+{"question": "Spotted: Single-use plastic. You use it or refuse it?", "answers": ["Refuse", "Use", "Sometimes refuse, sometimes use", "I'm indifferent"], "themes": ["Avoiding disposable items", "Overconsumption avoidance", "Packaging"]}
+{"question": "Bringing the 'outside in' with houseplants. Plastic or natural pots?", "answers": ["Natural pots", "Plastic pots", "A mix of both", "No houseplants here"], "themes": ["Green living", "Packaging", "Recyclable products"]}
+{"question": "Spotlight on your wardrobe: how sustainable is it?", "answers": ["Eco-fashionista here", "Half-half", "Not much, tbh", "I have no idea"], "themes": ["Ethical consumption", "Sustainably-sourced materials", "Overconsumption avoidance"]}
+{"question": "Do you go green or go home with your choice of diapers?", "answers": ["Go green", "Go home", "Depends on the situation", "Diapers? No need."], "themes": ["Packaging", "Avoiding disposable items", "Waste reduction"]}
+{"question": "Print or digital books: how do you turn a new leaf?", "answers": ["Digital all the way", "Love my print books", "A mix of both", "Not a big reader"], "themes": ["Overconsumption avoidance", "Conservation of resources", "Waste reduction"]}
+{"question": "Shopping list for groceries: is it on your phone or good old paper?", "answers": ["Phone", "Paper", "Both", "I don't use a list"], "themes": ["Overconsumption avoidance", "Recycling and composting", "Packaging"]}
+{"question": "For takeaways, do you...", "answers": ["Bring my own container", "Use their packaging", "A mix", "I dine in"], "themes": ["Packaging", "Avoiding disposable items", "Waste reduction"]}
+{"question": "Public transportation vs car? What's your pick?", "answers": ["Public transport ftw", "Car", "Both, depending on the situation", "I prefer to cycle/walk"], "themes": ["Eco-friendly transportation", "Carbon footprint reduction", "Conservation of resources"]}
+{"question": "Single-use batteries or rechargeable ones?", "answers": ["Rechargeable", "Single-use", "Both", "No batteries here"], "themes": ["Avoiding disposable items", "Energy efficiency", "Conservation of resources"]}
+{"question": "Your cleaning sponges - are they plastic or biodegradable?", "answers": ["Biodegradable", "Plastic", "I use both", "What's a cleaning sponge?"], "themes": ["Organic products", "Packaging", "Waste reduction"]}
+{"question": "Sunscreen: how reef-friendly is it?", "answers": ["Totally reef-friendly", "Not really", "A mix of both", "I don't use sunscreen"], "themes": ["Ocean conservation", "Biodiversity", "Natural preservation"]}
+{"question": "Packing for a picnic - is it disposable plates or reusable dishes?", "answers": ["Reusable dishes", "Disposable plates", "A mix", "No picnic here"], "themes": ["Packaging", "Avoiding disposable items", "Waste reduction"]}
+{"question": "Your 'canvas' for grocery shopping is...?", "answers": ["A canvas bag", "A plastic bag", "A mix", "Basket, please"], "themes": ["Packaging", "Reusable shopping bags", "Overconsumption avoidance"]}
+{"question": "Doing your bit for the planet with that thermostat?", "answers": ["Yes, energy-efficient", "No, old school", "Smart, auto-adjusts", "What's a thermostat?"], "themes": ["Energy efficiency", "Green living", "Carbon footprint reduction"]}
+{"question": "Eating out or ordering in: how much packaging waste do you have?", "answers": ["Almost none", "Loads", "Depends", "I always cook at home"], "themes": ["Packaging", "Avoiding disposable items", "Waste reduction"]}
+{"question": "Sporting some kicks: are they ethically made?", "answers": ["Absolutely", "Not really", "No idea", "Depends on the brand"], "themes": ["Ethical consumption", "Sustainably-sourced materials", "Fair trade"]}
+{"question": "Been to any cool beach cleanups lately?", "answers": ["Yes, many", "A few", "Not yet, but interested", "Nah, not my thing"], "themes": ["Community cooperation", "Ocean conservation", "Waste reduction"]}
+{"question": "Rocking the bike lanes or burning rubber on highways?", "answers": ["Bike lanes FTW", "Highways, please", "Both, depending on the distance", "Public transport, thank you"], "themes": ["Eco-friendly transportation", "Carbon footprint reduction", "Healthy choices"]}
+{"question": "Composting: Been there, done that?", "answers": ["Doing it right now", "Done that", "Haven't, but curious", "Com-what?"], "themes": ["Waste reduction", "Recycling and composting", "Sustainable agriculture"]}
+{"question": "Recycling - is it sorted or everything goes together?", "answers": ["Sorted meticulously", "All in one", "A bit of both", "Don't recycle"], "themes": ["Recycling and composting", "Waste reduction", "Conservation of resources"]}
+{"question": "Fast fashion: are you hooked or steering clear?", "answers": ["Steering clear", "Totally hooked", "A bit of both", "I shop secondhand"], "themes": ["Overconsumption avoidance", "Sustainably-sourced materials", "Ethical consumption"]}
+{"question": "Stylin' your crib with some neat LED lights?", "answers": ["Totally, they're all LEDs", "Some, but not all", "Nope, not into LEDs", "Mix of LED and other lights"], "themes": ["Energy efficiency", "Carbon footprint reduction", "Green living"]}
+{"question": "Yoga mat: is it natural or synthetic?", "answers": ["Natural all the way", "Synthetic", "A mix of both", "I don't do yoga"], "themes": ["Healthy choices", "Green living", "Sustainably-sourced materials"]}
+{"question": "Do you do 'lights out' when leaving a room?", "answers": ["Always", "Sometimes", "Nope, they stay on", "Automatic sensor-based"], "themes": ["Energy efficiency", "Carbon footprint reduction", "Green living"]}
+{"question": "Laundry: is it cold water wash or hot and heavy?", "answers": ["Cold water only", "Hot water", "Both", "I hand wash my clothes"], "themes": ["Energy efficiency", "Water conservation", "Conservation of resources"]}
+{"question": "Water bottle - is it glass, plastic or metal?", "answers": ["Glass", "Plastic", "Metal", "Don't use water bottles"], "themes": ["Packaging", "Water conservation", "Avoiding disposable items"]}
+{"question": "New furniture: do you buy or DIY?", "answers": ["DIY all the way", "Buy", "Mix it up", "I don't need new furniture"], "themes": ["Overconsumption avoidance", "Ethical consumption", "Green building"]}
+{"question": "Tea bags or loose tea leaves?", "answers": ["Loose leaves", "Tea bags", "Either/Or", "I'm a coffee person"], "themes": ["Packaging", "Waste reduction", "Overconsumption avoidance"]}
+{"question": "Shower time: is it a quickie or a mini-vacation?", "answers": ["Quickie", "Mini-vacation", "Depends on the mood", "I take baths"], "themes": ["Water conservation", "Energy efficiency", "Healthy choices"]}
+{"question": "Straw options: is it plastic, metal or no straw?", "answers": ["Metal straw", "Plastic straw", "No straw, please", "Paper straw"], "themes": ["Avoiding disposable items", "Packaging", "Conservation of resources"]}
+{"question": "Saving H2O: do you use a dishwasher or hand wash dishes?", "answers": ["Dishwasher", "Hand wash", "Both", "I eat out"], "themes": ["Water conservation", "Energy efficiency", "Conservation of resources"]}
