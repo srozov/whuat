@@ -1,5 +1,5 @@
 question_id = null
-
+var requestFlag = true
 async function fetchQuestion() {
     try {
         const response = await fetch('/get_random_question/');
@@ -28,6 +28,8 @@ fetchQuestion()
 
 
 function sendResponse(question, choice) {
+    if (requestFlag){
+    requestFlag = false
     var UPLOAD_URL = "/submit_selected_answer/"; // Your URL endpoint
 
     var data = {
@@ -43,11 +45,12 @@ function sendResponse(question, choice) {
     xhr.setRequestHeader("X-CSRFTOKEN", CSRF_TOKEN);
     xhr.onreadystatechange = function () {
         if (xhr.readyState == 4 && xhr.status == 200) {
-            console.log('succesfully submited')
+            requestFlag = true
         }
     };
     xhr.send(jsonString);
     fetchQuestion()
+}
 }
 
 // Function to generate fading string at (x, y) relative to the image
