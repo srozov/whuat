@@ -100,28 +100,28 @@ function getRandomCoordinate(min, max) {
 
 document.getElementById('choice1').addEventListener('click', function() {
     sendResponse(question = question_id, choice = "A");
-    const x = getRandomCoordinate(220, 300);
+    const x = getRandomCoordinate(190, 220);
     const y = getRandomCoordinate(30, 80);
     generateFadingString(x, y, '+1');
 });
 
 document.getElementById('choice2').addEventListener('click', function () {
     sendResponse(question = question_id, choice = "B");
-    const x = getRandomCoordinate(220, 300);
+    const x = getRandomCoordinate(190, 220);
     const y = getRandomCoordinate(30, 80);
     generateFadingString(x, y, '+1');
 });
 
 document.getElementById('choice3').addEventListener('click', function () {
     sendResponse(question = question_id, choice = "C");
-    const x = getRandomCoordinate(220, 300);
+    const x = getRandomCoordinate(190, 220);
     const y = getRandomCoordinate(30, 80);
     generateFadingString(x, y, '+1');
 });
 
 document.getElementById('choice4').addEventListener('click', function () {
     sendResponse(question = question_id, choice = "D");
-    const x = getRandomCoordinate(220, 300);
+    const x = getRandomCoordinate(190, 220);
     const y = getRandomCoordinate(30, 80);
     generateFadingString(x, y, '+1');
 });

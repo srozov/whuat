@@ -35,9 +35,10 @@ function countFromTo(start, end, updateUI) {
 
 async function fetchHealthData() {
     try {
+
+        if (data.health == 0){
         const response = await fetch('/state/');
         const data = await response.json();
-        
         update(data.health, data.users);
 
         
@@ -48,7 +49,7 @@ async function fetchHealthData() {
         else if (data.active_multiplier ===  'cracking multiplier') {
             start_cracking_multiplier();
         }
-
+    }
     } catch (error) {
         console.error('Error fetching health data:', error);
     }
