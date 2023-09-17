@@ -12,7 +12,12 @@ function update(health, users) {
     // Update health by counting
     const health_state = document.getElementById('percentage');
     countFromTo(currentHealth, health, (value) => {
-        health_state.value = value;
+        health_state.value = 100-(value*100);
+        const event = new Event('input', {
+            'bubbles': true,
+            'cancelable': true
+        });
+        health_state.dispatchEvent(event);
     });
     currentHealth = health; // Update the current health value
 }

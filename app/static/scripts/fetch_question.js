@@ -1,9 +1,12 @@
 question_id = null
 var requestFlag = true
 async function fetchQuestion() {
+    if (requestFlag){
+        requestFlag = false
     try {
         const response = await fetch('/get_random_question/');
         const data = await response.json();
+        requestFlag=true;
 
         
         if (data.new_url) {
@@ -21,15 +24,16 @@ async function fetchQuestion() {
 
     } catch (error) {
         console.error('Error fetching health data:', error);
+        requestFlag=true;
     }
+}
 }
 
 fetchQuestion()
 
 
 function sendResponse(question, choice) {
-    if (requestFlag){
-    requestFlag = false
+    
     var UPLOAD_URL = "/submit_selected_answer/"; // Your URL endpoint
 
     var data = {
@@ -50,7 +54,6 @@ function sendResponse(question, choice) {
     };
     xhr.send(jsonString);
     fetchQuestion()
-}
 }
 
 // Function to generate fading string at (x, y) relative to the image
@@ -106,6 +109,7 @@ document.getElementById('choice1').addEventListener('click', function() {
     const x = getRandomCoordinate(190, 220);
     const y = getRandomCoordinate(30, 80);
     generateFadingString(x, y, '+1');
+    fetchHealthData()
 });
 
 document.getElementById('choice2').addEventListener('click', function () {
@@ -113,6 +117,7 @@ document.getElementById('choice2').addEventListener('click', function () {
     const x = getRandomCoordinate(190, 220);
     const y = getRandomCoordinate(30, 80);
     generateFadingString(x, y, '+1');
+    fetchHealthData()
 });
 
 document.getElementById('choice3').addEventListener('click', function () {
@@ -120,6 +125,7 @@ document.getElementById('choice3').addEventListener('click', function () {
     const x = getRandomCoordinate(190, 220);
     const y = getRandomCoordinate(30, 80);
     generateFadingString(x, y, '+1');
+    fetchHealthData()
 });
 
 document.getElementById('choice4').addEventListener('click', function () {
@@ -127,4 +133,5 @@ document.getElementById('choice4').addEventListener('click', function () {
     const x = getRandomCoordinate(190, 220);
     const y = getRandomCoordinate(30, 80);
     generateFadingString(x, y, '+1');
+    fetchHealthData()
 });
