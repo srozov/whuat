@@ -15,14 +15,13 @@ from profiles.models import UserProfile
 from prompts.src.sustainability_profile import create_user_profile
 
 
-@api_view(['GET'])
-def get_valuable_insights(request):
+def compile_answer_history_payload(request):
 
     payload = []
 
     user_profile = request.user.userprofile
     for q in user_profile.answered_questions.all():
-        choice = SelectedAnswer.objects.get(question=q, userprofile=request.user.userprofile).choice
+        choice = SelectedAnswer.objects.filter(question=q, userprofile=request.user.userprofile).first().choice
         answer_text = q.answer_set.get(choice=choice).answer_text
         # answer_text = Answer.objects.get(question=q, choice=choice).answer_text
         alternatives = list(q.answer_set.exclude(choice=choice).values_list('answer_text', flat=True))
@@ -33,7 +32,13 @@ def get_valuable_insights(request):
         }
 
         payload.append(row)
+    return payload
 
+
+@api_view(['GET'])
+def get_valuable_insights(request):
+
+    payload = compile_answer_history_payload(request)
     response = create_user_profile(payload)
 
     # return JsonResponse(payload, safe=False)
@@ -61,7 +66,6 @@ def get_random_question(request):
     egg, created = Egg.objects.get_or_create()
 
     if not egg.health():
-        print('here')
         data = {"new_url": "/results"}
         return JsonResponse(data)
 
@@ -122,12 +126,27 @@ def state(request):
 @require_http_methods(["GET"])
 def results(request):
 
-    return render(request, 'results.html')
+    active_users_count = User.objects.count()
+    egg, created = Egg.objects.get_or_create()
+
+    payload = compile_answer_history_payload(request)
+
+    profile_insights = create_user_profile(payload)
+    print(profile_insights['profile'])
+
+
+    context = {
+        'age': egg.age_in_seconds(),
+        'active_users_count': active_users_count,
+        'username': request.user.username,
+        'scores': profile_insights['scores'],
+        'profile_insights': profile_insights['profile'],
+    }
+
+    return render(request, 'results.html', context)
 
 
 def index(request):
-    # TODO: create endpoint & js function to refresh count -> why not use react for that???
-
     if request.user.is_authenticated:
 
         active_users_count = User.objects.count()
