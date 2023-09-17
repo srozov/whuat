@@ -1,13 +1,15 @@
 import json
 
 from django.core.management.base import BaseCommand
-from app.models import Question, Answer
+from app.models import Question, Answer, Egg
 
 
 class Command(BaseCommand):
     help = 'Populate Question and Answer tables from questions.json'
 
     def handle(self, *args, **kwargs):
+
+        Egg.objects.all().delete()
 
         Question.objects.all().delete()
         previous_question = None

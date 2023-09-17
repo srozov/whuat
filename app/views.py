@@ -1,3 +1,5 @@
+import json
+
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from django.http import JsonResponse, HttpResponseForbidden
@@ -66,7 +68,6 @@ def get_random_question(request):
     egg, created = Egg.objects.get_or_create()
 
     egg_health = egg.health()
-    print("egg_health", egg_health)
     if not egg_health:
         data = {"new_url": "/results/"}
         return JsonResponse(data)
@@ -115,6 +116,11 @@ def state(request):
 
     egg, created = Egg.objects.get_or_create()
 
+    # egg_health = egg.health()
+    # if not egg_health:
+    #     data = {"new_url": "/results/"}
+    #     return JsonResponse(data)
+
     data = {
         'active_users_count': active_users_count,
         'health': egg.health(),
@@ -128,14 +134,31 @@ def state(request):
 @require_http_methods(["GET"])
 def results(request):
 
+    # userprofile = request.user.userprofile
+    #
+    # profile_insights = {
+    #     'scores' : json.loads(userprofile.scores),
+    #     'profile': json.loads(userprofile.profile_text),
+    # }
+
     active_users_count = User.objects.count()
     egg, created = Egg.objects.get_or_create()
 
+    # if not egg.cracked:
+    #     egg.cracked = True
+    #     egg.save()
+
     payload = compile_answer_history_payload(request)
-
     profile_insights = create_user_profile(payload)
-    print(profile_insights['profile'])
 
+        # print('got openai payload')
+        #
+        # userprofile.scores = json.dumps(profile_insights['scores'])
+        # j_txt = json.dumps(profile_insights['profile'])
+        # print(j_txt)
+        #
+        # userprofile.profile_text = j_txt
+        # userprofile.save()
 
     context = {
         'age': egg.age_in_seconds(),
@@ -158,7 +181,6 @@ def index(request):
             'username': request.user.username,
             'user_greeting': 'whaddup'
         }
-
 
         return render(request, 'index.html', context)
 

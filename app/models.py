@@ -11,6 +11,8 @@ class Egg(models.Model):
     # health = models.FloatField(default=1.0, validators=[MinValueValidator(0), MaxValueValidator(1)])
     MAX_ANSWERS = 20
 
+    cracked = models.BooleanField(default=False)
+
     def health(self):
         return max(1.0 - SelectedAnswer.objects.count() / self.MAX_ANSWERS, 0.0)
 

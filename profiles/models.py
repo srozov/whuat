@@ -12,5 +12,8 @@ class UserProfile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     answered_questions = models.ManyToManyField(Question, blank=True)
 
+    profile_text = models.TextField(default='[]')
+    scores = models.TextField(default='[]')
+
     def __str__(self):
         return self.user.username
